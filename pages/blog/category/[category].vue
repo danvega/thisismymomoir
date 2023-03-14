@@ -6,7 +6,7 @@ const featuredPost = ref('');
 
 switch (categoryParam) {
   case "momlife":
-    category.value = "#MomLife";
+    category.value = "MomLife";
     postCover.value = "momlife.jpeg";
     featuredPost.value = "Becoming a mom has changed my life in more ways than I can count. I often tell my husband that I don't feel like my life really began until our daughter was born. Obviously, that's not the case, and the 34 years of life that I lived before Bella (B.B. was a whole different era) were shaping me into the person I am today. The first time I held my baby in my arms, I felt like I had finally arrived at the chapter I was meant to be in. I felt the same way when Juliana was born. I had this overwhelming feeling of peace, and I knew that my family was complete.";
     break;

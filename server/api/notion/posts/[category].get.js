@@ -3,6 +3,9 @@ import fs from 'fs';
 import fetch from 'node-fetch';
 
 export default defineEventHandler(async (event) => {
+  const query = getQuery(event)
+  const page_size = parseInt(query.page_size) || 100;
+
   const category = decodeURI(event.context.params.category);
   const notion = new Client({ auth: process.env.NOTION_API_KEY });
   const database = await notion.databases.query({
@@ -30,6 +33,7 @@ export default defineEventHandler(async (event) => {
             direction: 'descending',
         },
     ],
+    page_size: page_size
   });
 
   const posts = [];

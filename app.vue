@@ -39,7 +39,7 @@
   <footer class="bg-primary p-4 flex flex-col text-center gap-4">
     <nav class="text-lg text-slate-900">
       <NuxtLink to=" /" class="hover:opacity-90 hover:underline">Home</NuxtLink> &#8226;
-      <NuxtLink to="/about" class="hover:opacity-90 hover:underline">About Me</NuxtLink> &#8226;
+      <NuxtLink to="/blog/about" class="hover:opacity-90 hover:underline">About Me</NuxtLink> &#8226;
       <NuxtLink to="/disclaimer" class="hover:opacity-90 hover:underline">Disclaimer</NuxtLink> &#8226;
       <NuxtLink to="/privacy" class="hover:opacity-90 hover:underline">Privacy Policy</NuxtLink> &#8226;
       <NuxtLink to="/contact" class="hover:opacity-90 hover:underline">Contact Me</NuxtLink>

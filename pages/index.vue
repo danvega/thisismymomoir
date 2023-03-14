@@ -12,7 +12,8 @@
           Aside from being a writer, I am the wife of a pretty awesome guy named Dan Vega and the mom of two adorable
           little girls, Isabella and Juliana. We are lifelong Clevelanders living in the suburb of Rocky River, Ohio. I
           love reading and writing and have a Bachelor of Arts degree in English from Cleveland State University. I also
-          love to cook, bake, exercise, and travel among other hobbies. <a href="/about">Click here to learn more</a>.</p>
+          love to cook, bake, exercise, and travel among other hobbies. <a href="/blog/about">Click here to learn
+            more</a>.</p>
         <div class="pt-4 flex flex-row gap-4 justify-center">
           <a href="#" class="">
             <svg xmlns="http://www.w3.org/2000/svg" class="h-7 w-7" fill="currentColor" style="color: #e60023"
@@ -49,8 +50,10 @@
         </div>
       </article>
       <article class="w-2/3">
-        <img src="/images/mom-girls-dress-up.png" alt="Welcome to This is my Momoir"
-          class="w-full h-max object-cover mt-4 rounded shadow">
+        <NuxtLink to="/blog/welcome">
+          <img src="/images/mom-girls-dress-up.png" alt="Welcome to This is my Momoir"
+            class="w-full h-max object-cover mt-4 rounded shadow">
+        </NuxtLink>
       </article>
     </section>
     <section class="bg-slate-100 p-8">
@@ -70,31 +73,22 @@
     </section>
     <section class="bg-white p-4">
       <article class="max-w-6xl mx-auto grid grid-cols-3 gap-4 my-4">
-        <div class="bg-slate-50 rounded shadow-md overflow-hidden hover:opacity-75">
-          <h3 class="bg-primary p-2 text-center font-semibold">#MomLife</h3>
-          <NuxtLink to="/blog/category/momlife">
-            <img src="/images/category/momlife.jpeg" class="h-full object-cover" />
-          </NuxtLink>
-        </div>
-        <div class="bg-white rounded-lg shadow-md overflow-hidden hover:opacity-75">
-          <h3 class="bg-primary p-2 text-center font-semibold">Health & Wellness</h3>
-          <img src="/images/category/health_wellness.jpeg" class="h-full object-cover" />
-        </div>
-        <div class="bg-white rounded-lg shadow-md overflow-hidden hover:opacity-75">
-          <h3 class="bg-primary p-2 text-center font-semibold">Recipes & Meal Planning</h3>
-          <img src="/images/category/recipes_meal_planning.jpeg" class="h-full object-cover" />
-        </div>
-        <div class="bg-white rounded-lg shadow-md overflow-hidden hover:opacity-75">
-          <h3 class="bg-primary p-2 text-center font-semibold">Celebrate!</h3>
-          <img src="/images/category/celebrate.jpeg" class="h-full object-cover" />
-        </div>
-        <div class="bg-white rounded-lg shadow-md overflow-hidden hover:opacity-75">
-          <h3 class="bg-primary p-2 text-center font-semibold">Travel</h3>
-          <NuxtLink to="/blog/category/travel">
-            <img src="/images/category/travel.jpeg" class="h-full object-cover" />
-          </NuxtLink>
-        </div>
+        <BlogCategoryCard title="Welcome" link="welcome" img="welcome.jpeg" />
+        <BlogCategoryCard title="#MomLife" link="category/momlife" img="momlife.jpeg" />
+        <BlogCategoryCard title="Health & Wellness" link="category/health" img="health_wellness.jpeg" />
+        <BlogCategoryCard title="Recipes & Meal Planning" link="category/recipes" img="recipes_meal_planning.jpeg" />
+        <BlogCategoryCard title="Celebrate!" link="category/celebrate" img="celebrate.jpeg" />
+        <BlogCategoryCard title="Travel" link="category/travel" img="travel.jpeg" />
       </article>
     </section>
+
+    <section class="bg-white p-4">
+      <BlogLatestPostsByCategory category="MomLife" />
+      <BlogLatestPostsByCategory category="Health & Wellness" />
+      <BlogLatestPostsByCategory category="Recipes & Meal Planning" />
+      <BlogLatestPostsByCategory category="Celebrate!" />
+      <BlogLatestPostsByCategory category="Travel" />
+    </section>
+
   </main>
 </template>
