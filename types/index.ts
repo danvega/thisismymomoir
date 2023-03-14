@@ -13,6 +13,14 @@ declare global {
     excerpt: string;
   }
 
+  interface Category {
+    slug: string;
+    name: string;
+    notionCategory: string;
+    cover: string;
+    featuredPost: string;
+  }
+
   interface Block {
     object: string;
     id: string;

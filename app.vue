@@ -13,8 +13,8 @@
         </button>
         <nav class="hidden space-x-8 text-xl md:block " aria-label="main">
           <NuxtLink to="/blog/category/momlife" class="hover:opacity-90">#MomLife</NuxtLink>
-          <NuxtLink to="/blog/category/health" class="hover:opacity-90">Health & Wellness</NuxtLink>
-          <NuxtLink to="/blog/category/recipes" class="hover:opacity-90">Recipes & Meal Planning</NuxtLink>
+          <NuxtLink to="/blog/category/health-wellness" class="hover:opacity-90">Health & Wellness</NuxtLink>
+          <NuxtLink to="/blog/category/meal-planning-recipes" class="hover:opacity-90">Recipes & Meal Planning</NuxtLink>
           <NuxtLink to="/blog/category/celebrate" class="hover:opacity-90">Celebrate!</NuxtLink>
           <NuxtLink to="/blog/category/travel" class="hover:opacity-90">Travel</NuxtLink>
         </nav>

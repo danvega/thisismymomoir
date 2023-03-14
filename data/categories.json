@@ -1,0 +1,37 @@
+[
+  {
+    "slug": "momlife",
+    "name": "#MomLife",
+    "notionCategory": "MomLife",
+    "cover": "momlife.jpeg",
+    "featuredPost": "Becoming a mom has changed my life in more ways than I can count. I often tell my husband that I don't feel like my life really began until our daughter was born. Obviously, that's not the case, and the 34 years of life that I lived before Bella (B.B. was a whole different era) were shaping me into the person I am today. The first time I held my baby in my arms, I felt like I had finally arrived at the chapter I was meant to be in. I felt the same way when Juliana was born. I had this overwhelming feeling of peace, and I knew that my family was complete."
+  },
+  {
+    "slug": "health-wellness",
+    "name": "Health & Wellness",
+    "notionCategory": "Health & Wellness",
+    "cover": "health_wellness.jpeg",
+    "featuredPost": "Health and wellness is a huge topic for everyone these days, especially at this time of year (New year, new me!)  I plan to spend a lot of time writing about this subject because it is something that is really important to me.  As a mom, I can say without question that the better I feel, the better parent I am. That is just a fact.  You can ask my husband who has to pick up the slack after I go on a no-exercise/Christmas cookie binge :)"
+  },
+  {
+    "slug": "meal-planning-recipes",
+    "name": "Recipes & Meal Planning",
+    "notionCategory": "Recipes & Meal Planning",
+    "cover": "recipes_meal_planning.jpeg",
+    "featuredPost": "Meal planning seems to be a source of stress for most moms.  How could it not be?  Planning three meals a day (plus snacks, don’t forget the snacks!) for an entire family can be overwhelming and time-consuming.  Every family member has their own taste preferences and dietary needs, and making sure everyone gets the nutrition they require while also enjoying their meals, can be quite the task.  I have learned some tips and tricks over the years to help simplify this process, so I hope this section of the website will be helpful in doing the same for you!"
+  },
+  {
+    "slug": "celebrate",
+    "name": "Celebrate!",
+    "notionCategory": "Celebrate!",
+    "cover": "celebrate.jpeg",
+    "featuredPost": "A main source of joy in my life stems from celebrations.  I absolutely love to celebrate all of the special moments in life.  From birthdays to holidays to special achievements that deserve a magical moment, I love to add a little sparkle to create a lasting memory.  Life has so many ups and downs and can be full of so much hardship and stress.  So, I think it is so important to add love and joy into the world whenever we can.  Life is all about the journey, and I feel strongly that the journey should consist of lots of balloons and confetti. "
+  },
+  {
+    "slug": "travel",
+    "name": "Travel",
+    "notionCategory": "Travel",
+    "cover": "travel.jpeg",
+    "featuredPost": "When I think about what is most important to me in life, my family and our health and safety are of course at the top of the list.  When I think about what brings me joy, travel is one of the first things that comes to mind.  I know that it is not a possibility for every person at every time in their lives to travel, which is one of the many reasons that reading has always been so special to me.  Growing up with a single mom, we didn’t have the means to go on many vacations."
+  }
+]

@@ -75,19 +75,20 @@
       <article class="max-w-6xl mx-auto grid grid-cols-3 gap-4 my-4">
         <BlogCategoryCard title="Welcome" link="welcome" img="welcome.jpeg" />
         <BlogCategoryCard title="#MomLife" link="category/momlife" img="momlife.jpeg" />
-        <BlogCategoryCard title="Health & Wellness" link="category/health" img="health_wellness.jpeg" />
-        <BlogCategoryCard title="Recipes & Meal Planning" link="category/recipes" img="recipes_meal_planning.jpeg" />
+        <BlogCategoryCard title="Health & Wellness" link="category/health-wellness" img="health_wellness.jpeg" />
+        <BlogCategoryCard title="Recipes & Meal Planning" link="category/meal-planning-recipes"
+          img="recipes_meal_planning.jpeg" />
         <BlogCategoryCard title="Celebrate!" link="category/celebrate" img="celebrate.jpeg" />
         <BlogCategoryCard title="Travel" link="category/travel" img="travel.jpeg" />
       </article>
     </section>
 
     <section class="bg-white p-4">
-      <BlogLatestPostsByCategory category="MomLife" />
-      <BlogLatestPostsByCategory category="Health & Wellness" />
-      <BlogLatestPostsByCategory category="Recipes & Meal Planning" />
-      <BlogLatestPostsByCategory category="Celebrate!" />
-      <BlogLatestPostsByCategory category="Travel" />
+      <BlogLatestPostsByCategory categorySlug="momlife" />
+      <BlogLatestPostsByCategory categorySlug="health-wellness" />
+      <BlogLatestPostsByCategory categorySlug="meal-planning-recipes" />
+      <BlogLatestPostsByCategory categorySlug="celebrate" />
+      <BlogLatestPostsByCategory categorySlug="travel" />
     </section>
 
   </main>
