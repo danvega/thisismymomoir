@@ -7,7 +7,8 @@ import Paragraph from './Paragraph.vue';
 import BulletedList from './BulletedList.vue';
 
 const props = defineProps({
-  block: { type: Object as PropType<Block>, default: () => ({}) }
+  block: { type: Object as PropType<Block>, default: () => ({}) },
+  slug: { type: String, default: '' }
 });
 
 const currentBlock: { [key: string]: Component } = {
@@ -21,5 +22,5 @@ const currentBlock: { [key: string]: Component } = {
 </script>
 
 <template>
-  <component :is="currentBlock[block.type]" v-if="block" :block="block" />
+  <component :is="currentBlock[block.type]" v-if="block" :block="block" :slug="slug" />
 </template>

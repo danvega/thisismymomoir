@@ -7,10 +7,9 @@
 </template>
 
 <script setup lang="ts">
-import { blockStatement } from '@babel/types';
-
 const props = defineProps({
-  block: { type: Object as PropType<Block>, default: () => ({}) }
+  block: { type: Object as PropType<Block>, default: () => ({}) },
+  slug: { type: String, default: '' }
 });
 
 const imgSrc = ref('');
@@ -19,7 +18,10 @@ switch (props.block.image?.type) {
     imgSrc.value = props.block.image.external?.url;
     break;
   case 'file':
-    imgSrc.value = props.block.image.file?.url;
+    const re = /(?<=secure.notion-static.com\/)(.*)(?=\?X-Amz-Algorithm)/gm;
+    const url = props.block.image.file?.url;
+    const name = url.match(re)[0];
+    imgSrc.value = '/images/blog/posts/' + props.slug + '/' + name.split('/')[1];
     break;
   default:
     imgSrc.value = '';
