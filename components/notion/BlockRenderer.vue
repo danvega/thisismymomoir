@@ -22,5 +22,5 @@ const currentBlock: { [key: string]: Component } = {
 </script>
 
 <template>
-  <component :is="currentBlock[block.type]" v-if="block" :block="block" :slug="slug" />
+  <component :is="currentBlock[block.type]" v-if="block" :block="block" />
 </template>

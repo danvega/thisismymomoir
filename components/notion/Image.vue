@@ -18,10 +18,7 @@ switch (props.block.image?.type) {
     imgSrc.value = props.block.image.external?.url;
     break;
   case 'file':
-    const re = /(?<=secure.notion-static.com\/)(.*)(?=\?X-Amz-Algorithm)/gm;
-    const url = props.block.image.file?.url;
-    const name = url.match(re)[0];
-    imgSrc.value = '/images/blog/posts/' + props.slug + '/' + name.split('/')[1];
+    imgSrc.value = props.block.image.file?.url;
     break;
   default:
     imgSrc.value = '';
