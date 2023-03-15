@@ -4,8 +4,19 @@ import GoogleFontsModule from '@nuxtjs/google-fonts'
 export default defineNuxtConfig({
   modules: [
     '@nuxtjs/tailwindcss',
-    '@nuxtjs/google-fonts'
+    '@nuxtjs/google-fonts',
+    '@nuxt/image-edge'
   ],
+  image: {
+    domains: ['amazonaws.com'],
+    screens: {
+      xs: 320,
+      sm: 640,
+      md: 768,
+      lg: 1024,
+      xl: 1280
+    },
+  },
   routeRules: {
     // Static page generated on-demand, revalidates in background
     '/blog/**': { swr: true },
@@ -22,5 +33,6 @@ export default defineNuxtConfig({
     head: {
       link: [{ rel: 'stylesheet', href: 'https://use.typekit.net/qbx5zks.css' }]
     }
-  }
+  },
+
 })

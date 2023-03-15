@@ -1,9 +1,10 @@
 <template>
-  <div class="flex flex-col">
+  <!-- <div class="flex flex-col">
     <label :for="block.id" class="modal-button cursor-pointer not-prose">
       <img :src="imgSrc" class="mb-0" />
     </label>
-  </div>
+  </div> -->
+  <NuxtImg :src="imgSrc" class="my-4" sizes="sm:100vw md:50vw lg:1152px" />
 </template>
 
 <script setup lang="ts">

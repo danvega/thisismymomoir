@@ -19,7 +19,8 @@ const { data: posts } = await useFetch<Post[]>(`/api/notion/posts/${encodeURI(ca
         <div v-for="post in posts" :key="post.id" class="rounded-md shadow-md bg-slate-50">
           <NuxtLink :to="`/blog/${post.slug}`">
             <!-- <img :src="`/images/blog/thumbnails/${post.cover}`" class="w-full h-48 object-cover rounded-md" /> -->
-            <img :src="post.cover" class="w-full h-48 object-cover rounded-md" />
+            <!-- <img :src="post.cover" class="w-full h-48 object-cover rounded-md" /> -->
+            <NuxtImg :src="post.cover" class="w-full h-48 object-cover rounded-md" sizes="sm:100vw md:50vw lg:400px" />
           </NuxtLink>
           <div class="p-6">
             <h2 class="text-xl font-bold mb-2">{{ post.title }}</h2>
