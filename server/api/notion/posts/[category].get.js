@@ -36,7 +36,6 @@ export default defineEventHandler(async (event) => {
 
   const posts = [];
   database.results.forEach((post) => {
-    console.log(post);
     posts.push({
       id: post.id,
       title: post.properties.Name.title[0].plain_text,
