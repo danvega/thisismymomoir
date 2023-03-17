@@ -8,6 +8,7 @@ export default defineNuxtConfig({
     '@nuxt/image-edge'
   ],
   image: {
+    provider: 'netlify',
     domains: ['amazonaws.com'],
     screens: {
       xs: 320,
