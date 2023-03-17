@@ -6,7 +6,6 @@
       </h1>
       <div>
         <button id="hamburger-button" class="relative h-8 w-8 cursor-pointer text-3xl md:hidden">
-          <!-- &#9776; -->
           <div
             class="absolute top-4 -mt-0.5 h-1 w-8 rounded bg-black transition-all duration-500 before:absolute before:h-1 before:w-8 before:-translate-x-4 before:-translate-y-3 before:rounded before:bg-black before:transition-all before:duration-500 before:content-[''] after:absolute after:h-1 after:w-8 after:-translate-x-4 after:translate-y-3 after:rounded after:bg-black after:transition-all after:duration-500 after:content-['']">
           </div>
@@ -22,10 +21,8 @@
     </section>
     <section id="mobile-menu"
       class="top-68 justify-content-center absolute hidden w-full origin-top animate-open-menu flex-col bg-black text-3xl">
-      <!-- <button class="text-8xl self-end px-6">
-              &times;
-          </button> -->
       <nav class="flex min-h-screen flex-col items-center py-8 text-white" aria-label="mobile">
+        <NuxtLink to="/" class="w-full py-6 text-center hover:opacity-90">Home</NuxtLink>
         <NuxtLink to="/blog/category/momlife" class="w-full py-6 text-center hover:opacity-90">#MomLife</NuxtLink>
         <NuxtLink to="/blog/category/health-wellness" class="w-full py-6 text-center hover:opacity-90">Health & Wellness
         </NuxtLink>
@@ -38,7 +35,7 @@
   </header>
   <NuxtPage />
   <footer class="bg-primary p-4 flex flex-col text-center gap-4">
-    <nav class="text-lg text-slate-900">
+    <nav class="text-sm md:text-lg text-slate-900">
       <NuxtLink to=" /" class="hover:opacity-90 hover:underline">Home</NuxtLink> &#8226;
       <NuxtLink to="/blog/about" class="hover:opacity-90 hover:underline">About Me</NuxtLink> &#8226;
       <NuxtLink to="/disclaimer" class="hover:opacity-90 hover:underline">Disclaimer</NuxtLink> &#8226;
@@ -46,7 +43,8 @@
       <NuxtLink to="/contact" class="hover:opacity-90 hover:underline">Contact Me</NuxtLink>
     </nav>
     <div class="">
-      <p class="text-sm">Copyright &copy; <span>2023</span>. This is my Momoir. All Rights Reserved</p>
+      <p class="text-sm">Copyright &copy; <span>2023</span>.</p>
+      <p>This is my Momoir. All Rights Reserved</p>
     </div>
     <div class="flex flex-row justify-center gap-2">
       <!-- https://tailwind-elements.com/docs/standard/components/social-buttons/ -->

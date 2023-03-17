@@ -4,8 +4,8 @@
 
 <template>
   <main class="bg-primary">
-    <section class="mx-auto max-w-6xl flex mb-4">
-      <article class="w-1/3 bg-white rounded p-4 shadow mt-4 mr-4">
+    <section class="mx-auto max-w-6xl flex flex-col lg:flex-row mb-4">
+      <article class="lg:w-1/3 bg-white rounded p-4 shadow mt-4 mx-4">
         <h2 class="text-4xl mb-4 font-bold" style="font-family: 'Cormorant Garamond', serif">Hello, I'm Jen Vega!</h2>
         <p class="leading-7 text-slate-900">I am the creator and writer of This Is My Momoir. Thank you so much for being
           here!
@@ -49,7 +49,7 @@
           </svg>
         </div>
       </article>
-      <article class="w-2/3">
+      <article class="lg:w-2/3 mx-4">
         <NuxtLink to="/blog/welcome">
           <img src="/images/mom-girls-dress-up.png" alt="Welcome to This is my Momoir"
             class="w-full h-max object-cover mt-4 rounded shadow">
@@ -57,22 +57,23 @@
       </article>
     </section>
     <section class="bg-slate-100 p-8">
-      <article class="mx-auto max-w-6xl flex gap-4">
+      <article class="mx-auto max-w-6xl flex flex-col gap-4">
         <div class="flex-1">
-          <h2 class="text-4xl mb-2">Stay in touch with me</h2>
+          <h2 class="text-3xl md:text-4xl mb-2">Stay in touch with me</h2>
           <p class="text-slate-900 mb-4">Sign up for my monthly newsletter and stay up to date with current blog posts.
           </p>
           <form action="">
-            <input type="email" name="email" id="email" placeholder="Enter your email address" class="w-1/3 p-3 rounded">
-            <button class="bg-primary p-3 mx-4 rounded font-semibold hover:opacity-90" type="submit">Subscribe</button>
+            <input type="email" name="email" id="email" placeholder="Enter your email address" class="w-full p-3 rounded">
+            <button class="bg-primary p-3 mt-4 rounded font-semibold hover:opacity-90 w-full"
+              type="submit">Subscribe</button>
           </form>
         </div>
-        <img src="/images/envelope.png" alt="envelope" class="h-36">
+        <img src="/images/envelope.png" alt="envelope" class="h-36 hidden">
       </article>
 
     </section>
     <section class="bg-white p-4">
-      <article class="max-w-6xl mx-auto grid grid-cols-3 gap-4 my-4">
+      <article class="max-w-6xl mx-auto grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-4 my-4">
         <BlogCategoryCard title="Welcome" link="welcome" img="welcome.jpeg" />
         <BlogCategoryCard title="#MomLife" link="category/momlife" img="momlife.jpeg" />
         <BlogCategoryCard title="Health & Wellness" link="category/health-wellness" img="health_wellness.jpeg" />
