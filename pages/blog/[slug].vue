@@ -8,13 +8,15 @@ const publishedOnFormatted = useDateFormat(post?.publishedOn, 'MM/DD/YYYY', { lo
 </script>
 
 <template>
-  <main class="mx-4 md:mx-auto max-w-6xl flex mb-4">
-    <section class="">
+  <main class="mx-4 md:mx-auto max-w-3xl flex flex-col mb-4">
+    <section class="bg-primary p-4 rounded-md">
       <h1 class="text-4xl font-bold leading-tight text-gray-900">{{ post?.title }}</h1>
       <p class="mb-4 align-middle text-sm lg:text-base">
         <Icon name="material-symbols:edit-square-outline" size="18px" /> Written By: {{ post?.author }}
         <Icon name="ic:baseline-calendar-month" size="18px" class="ml-4" /> Published On: {{ publishedOnFormatted }}
       </p>
+    </section>
+    <section>
       <BlockRenderer v-for="block in post?.content" :key="block.id" :block="block" />
     </section>
   </main>

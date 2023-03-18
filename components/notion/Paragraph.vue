@@ -1,5 +1,5 @@
 <template>
-  <p :id="block.id" class="text-lg leading-7 text-gray-800 text-left mb-4 font-normal" v-html="paragraph">
+  <p :id="block.id" class="text-base text-slate-900 text-left mb-4 font-normal" v-html="paragraph">
   </p>
 </template>
 
