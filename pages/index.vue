@@ -52,8 +52,14 @@
       <article class="lg:w-2/3 mx-4">
         <NuxtLink to="/blog/welcome">
           <!-- <img src="/images/mom-girls-dress-up.png" alt="Welcome to This is my Momoir"
-              class="w-full h-max object-cover mt-4 rounded shadow"> -->
-          <NuxtImg src="/images/mom-girls-dress-up.png" class="w-full my-4" sizes="sm:100vw md:50vw lg:724px" />
+                    class="w-full h-max object-cover mt-4 rounded shadow"> -->
+          <img src="/_ipx/w_724/images/mom-girls-dress-up.png" alt="Welcome to This is my Momoir"
+            sizes="(max-width: 640px) 100vw, (max-width: 768px) 50vw, 724px" srcset="
+                    /images/home/mom-girls-dress-up-640.png 640w,
+                    /images/home/mom-girls-dress-up-384.png 384w,
+                    /images/home/mom-girls-dress-up-724.png 724w
+                  " class="w-full my-4" />
+
         </NuxtLink>
       </article>
     </section>
