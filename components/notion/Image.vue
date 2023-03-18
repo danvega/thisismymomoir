@@ -4,7 +4,7 @@
       <img :src="imgSrc" class="mb-0" />
     </label>
   </div> -->
-  <NuxtImg :src="imgSrc" class="w-full my-4" sizes="sm:100vw md:50vw lg:1152px" format="webp" />
+  <NuxtImg :src="imgSrc" class="w-full my-4" sizes="sm:100vw md:50vw lg:1152px" />
 </template>
 
 <script setup lang="ts">
