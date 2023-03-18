@@ -12,8 +12,8 @@
           Aside from being a writer, I am the wife of a pretty awesome guy named Dan Vega and the mom of two adorable
           little girls, Isabella and Juliana. We are lifelong Clevelanders living in the suburb of Rocky River, Ohio. I
           love reading and writing and have a Bachelor of Arts degree in English from Cleveland State University. I also
-          love to cook, bake, exercise, and travel among other hobbies. <a href="/blog/about">Click here to learn
-            more</a>.</p>
+          love to cook, bake, exercise, and travel among other hobbies. <a href="/blog/about" class="text-blue-700 under
+                               hover:text-blue-600 hover:no-underline">Click here to learn more</a>.</p>
         <div class="pt-4 flex flex-row gap-4 justify-center">
           <a href="#" class="">
             <svg xmlns="http://www.w3.org/2000/svg" class="h-7 w-7" fill="currentColor" style="color: #e60023"
@@ -52,24 +52,23 @@
       <article class="lg:w-2/3 mx-4">
         <NuxtLink to="/blog/welcome">
           <!-- <img src="/images/mom-girls-dress-up.png" alt="Welcome to This is my Momoir"
-                          class="w-full h-max object-cover mt-4 rounded shadow"> -->
+                                              class="w-full h-max object-cover mt-4 rounded shadow"> -->
           <img src="/images/home/mom-girls-dress-up.png" alt="Welcome to This is my Momoir"
             sizes="(max-width: 640px) 100vw, (max-width: 768px) 50vw, 724px" srcset="
-                          /images/home/mom-girls-dress-up-640.png 640w,
-                          /images/home/mom-girls-dress-up-384.png 384w,
-                          /images/home/mom-girls-dress-up-724.png 724w
-                        " class="w-full my-4" />
+                                              /images/home/mom-girls-dress-up-640.png 640w,
+                                              /images/home/mom-girls-dress-up-384.png 384w,
+                                              /images/home/mom-girls-dress-up-724.png 724w" class="w-full my-4" />
 
         </NuxtLink>
       </article>
     </section>
     <section class="bg-slate-100 p-8">
-      <article class="mx-auto max-w-6xl flex flex-col gap-4">
+      <article class="mx-auto max-w-6xl flex flex-col md:flex-row gap-4">
         <div class="flex-1">
           <h2 class="text-3xl md:text-4xl mb-2">Stay in touch with me</h2>
           <p class="text-slate-900 mb-4">Sign up for my monthly newsletter and stay up to date with current blog posts.
           </p>
-          <form action="">
+          <form action="" class="md:w-1/2">
             <input type="email" name="email" id="email" placeholder="Enter your email address" class="w-full p-3 rounded">
             <button class="bg-primary p-3 mt-4 rounded font-semibold hover:opacity-90 w-full"
               type="submit">Subscribe</button>
