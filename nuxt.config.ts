@@ -8,6 +8,7 @@ export default defineNuxtConfig({
     '@nuxt/image-edge',
     'nuxt-icon'
   ],
+  plugins: ['~/plugins/medium-zoom'],
   image: {
     domains: ['amazonaws.com'],
     screens: {
