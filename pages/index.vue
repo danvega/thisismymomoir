@@ -52,13 +52,13 @@
       <article class="lg:w-2/3 mx-4">
         <NuxtLink to="/blog/welcome">
           <!-- <img src="/images/mom-girls-dress-up.png" alt="Welcome to This is my Momoir"
-                      class="w-full h-max object-cover mt-4 rounded shadow"> -->
+                          class="w-full h-max object-cover mt-4 rounded shadow"> -->
           <img src="/images/home/mom-girls-dress-up.png" alt="Welcome to This is my Momoir"
             sizes="(max-width: 640px) 100vw, (max-width: 768px) 50vw, 724px" srcset="
-                      /images/home/mom-girls-dress-up-640.png 640w,
-                      /images/home/mom-girls-dress-up-384.png 384w,
-                      /images/home/mom-girls-dress-up-724.png 724w
-                    " class="w-full my-4" />
+                          /images/home/mom-girls-dress-up-640.png 640w,
+                          /images/home/mom-girls-dress-up-384.png 384w,
+                          /images/home/mom-girls-dress-up-724.png 724w
+                        " class="w-full my-4" />
 
         </NuxtLink>
       </article>
@@ -81,13 +81,13 @@
     </section>
     <section class="bg-white p-4">
       <article class="max-w-6xl mx-auto grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-4 my-4">
-        <BlogCategoryCard title="Welcome" link="welcome" img="welcome.jpeg" />
-        <BlogCategoryCard title="#MomLife" link="category/momlife" img="momlife.jpeg" />
-        <BlogCategoryCard title="Health & Wellness" link="category/health-wellness" img="health_wellness.jpeg" />
+        <BlogCategoryCard title="Welcome" link="welcome" img="welcome-386.jpg" />
+        <BlogCategoryCard title="#MomLife" link="category/momlife" img="momlife-386.jpg" />
+        <BlogCategoryCard title="Health & Wellness" link="category/health-wellness" img="health_wellness-386.jpg" />
         <BlogCategoryCard title="Recipes & Meal Planning" link="category/meal-planning-recipes"
-          img="recipes_meal_planning.jpeg" />
-        <BlogCategoryCard title="Celebrate!" link="category/celebrate" img="celebrate.jpeg" />
-        <BlogCategoryCard title="Travel" link="category/travel" img="travel.jpeg" />
+          img="recipes_meal_planning-386.jpg" />
+        <BlogCategoryCard title="Celebrate!" link="category/celebrate" img="celebrate-386.jpg" />
+        <BlogCategoryCard title="Travel" link="category/travel" img="travel-386.jpg" />
       </article>
     </section>
 
