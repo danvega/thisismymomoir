@@ -48,11 +48,12 @@
             </path>
           </svg>
         </div>
-      </article>
+    </article>
       <article class="lg:w-2/3 mx-4">
         <NuxtLink to="/blog/welcome">
-          <img src="/images/mom-girls-dress-up.png" alt="Welcome to This is my Momoir"
-            class="w-full h-max object-cover mt-4 rounded shadow">
+          <!-- <img src="/images/mom-girls-dress-up.png" alt="Welcome to This is my Momoir"
+              class="w-full h-max object-cover mt-4 rounded shadow"> -->
+          <NuxtImg src="/images/mom-girls-dress-up.png" class="w-full my-4" sizes="sm:100vw md:50vw lg:724px" />
         </NuxtLink>
       </article>
     </section>
