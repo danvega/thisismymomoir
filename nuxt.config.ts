@@ -5,7 +5,8 @@ export default defineNuxtConfig({
   modules: [
     '@nuxtjs/tailwindcss',
     '@nuxtjs/google-fonts',
-    '@nuxt/image-edge'
+    '@nuxt/image-edge',
+    'nuxt-icon'
   ],
   image: {
     domains: ['amazonaws.com'],
