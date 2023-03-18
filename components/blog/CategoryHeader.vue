@@ -15,7 +15,8 @@ const props = defineProps({
 
     </article>
     <article class="lg:w-1/3 mx-4">
-      <img :src="`/images/category/${category.cover}`" class="w-full h-max object-cover mt-4 rounded shadow" />
+      <img :src="`/images/category/${category.cover.replace('.jpeg', '-386.jpg')}`"
+        class="w-full h-max object-cover mt-4 rounded shadow" />
     </article>
   </section>
 </template>
