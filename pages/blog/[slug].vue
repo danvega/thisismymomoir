@@ -8,7 +8,7 @@ const publishedOnFormatted = useDateFormat(post?.publishedOn, 'MM/DD/YYYY', { lo
 </script>
 
 <template>
-  <section class="bg-primary p-8">
+  <section class="bg-primary p-8 mb-4">
     <div class="mx-4 md:mx-auto max-w-3xl">
       <h1 class="text-4xl font-bold leading-tight text-gray-900">{{ post?.title }}</h1>
       <div class="flex flex-col md:flex-row gap-4">
@@ -22,7 +22,7 @@ const publishedOnFormatted = useDateFormat(post?.publishedOn, 'MM/DD/YYYY', { lo
     </div>
   </section>
   <main class="bg-white">
-    <section class="mx-4 md:mx-auto max-w-3xl">
+    <section class="mx-4 md:mx-auto max-w-3xl selection:bg-primary">
       <BlockRenderer v-for="block in post?.content" :key="block.id" :block="block" />
     </section>
   </main>
