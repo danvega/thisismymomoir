@@ -1,3 +1,4 @@
+import { sitemap } from '@nuxtjs/sitemap';
 import GoogleFontsModule from '@nuxtjs/google-fonts'
 
 // https://nuxt.com/docs/api/configuration/nuxt-config
@@ -7,7 +8,9 @@ export default defineNuxtConfig({
     '@nuxtjs/google-fonts',
     '@nuxt/image-edge',
     'nuxt-icon',
-    'nuxt-gtag'
+    'nuxt-gtag',
+    'nuxt-simple-sitemap',
+    'nuxt-simple-robots',
   ],
   plugins: ['~/plugins/medium-zoom'],
   image: {
@@ -39,5 +42,9 @@ export default defineNuxtConfig({
   },
   gtag: {
     id: 'G-QHP11Y0FRR'
+  },
+  sitemap: {
+    siteUrl: 'https://thisismymomoir.com',
+    sitemap: '/sitemap.xml',
   }
 })
