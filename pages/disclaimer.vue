@@ -11,7 +11,7 @@
     </section>
 
     <section class="mx-4 lg:mx-auto lg:max-w-6xl my-4">
-      <p class="text-base text-gray-800 text-left mb-4 font-normal">By accessing or using ThisIsMyMemoir.com (the "Site"),
+      <p class="text-base text-gray-800 text-left mb-4 font-normal">By accessing or using ThisIsMyMomoir.com (the "Site"),
         you agree to be bound by the following terms and conditions of this disclaimer. If you do not agree with any part
         of these terms and conditions, you must not access or use the Site.</p>
 

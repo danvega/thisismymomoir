@@ -7,13 +7,11 @@
     <section class="bg-primary p-4 lg:mx-auto lg:max-w-6xl">
       <h2 class="text-4xl font-bold leading-tight text-gray-900">Contact</h2>
     </section>
-    <section class="mx-auto max-w-6xl mb-4 flex flex-col-reverse lg:flex-row divide-x-2 mt-4">
+    <section class="mx-auto max-w-6xl mb-4 flex flex-col lg:flex-row divide-x-2 mt-4">
       <div class="lg:w-2/3 p-4">
-        <p class=" text-gray-800 text-left mb-4">I'm thrilled that you'd like to get in touch, and
-          I'm here to make it as easy as possible for you. Whether you have questions, ideas, or feedback, I'd love to
-          hear from you. To help facilitate a smooth conversation, I've provided a simple message form below that you can
-          use to send me a message directly. Just fill it out, hit "Send Message," and I'll get back to you as soon as I
-          can.</p>
+        <p class=" text-gray-800 text-left mb-4">Let's connect! Whether you have questions, ideas, or feedback, I'd love
+          to hear from you. For your convenience, I've provided a simple message form below that you can use to send me a
+          message directly. Just fill it out, hit "Send Message," and I'll get back to you as soon as I can..</p>
         <form name="contact" method="POST" netlify class="space-y-8">
           <div>
             <label for="name" class="block mb-2 text-sm font-medium text-gray-900 dark:text-gray-300">Your Name</label>
@@ -46,17 +44,17 @@
           share updates, interesting articles, and engage with my followers. Feel free to check out my profiles and follow
           or connect with me on your favorite platform. Here are the links to my social networks:</p>
         <div class="flex flex-col mt-4">
-          <a href="https://pinterest.com/thisismymomoir" class="py-4">
-            <Icon name="entypo-social:pinterest-with-circle" size="1.5rem" class="text-slate-900" /> on Pinterest
+          <a href="https://www.instagram.com/thisismymomoir" class="py-4">
+            <Icon name="entypo-social:instagram" size="1.5rem" class="text-slate-900" /> Instagram
           </a>
           <a href="https://www.facebook.com/thisismymomoir" class="py-4">
-            <Icon name="entypo-social:facebook" size="1.5rem" class="text-slate-900" /> on Facebook
+            <Icon name="entypo-social:facebook" size="1.5rem" class="text-slate-900" /> Facebook
           </a>
-          <a href="https://www.instagram.com/thisismymomoir" class="py-4">
-            <Icon name="entypo-social:instagram" size="1.5rem" class="text-slate-900" /> on instagram
+          <a href="https://pinterest.com/thisismymomoir" class="py-4">
+            <Icon name="entypo-social:pinterest-with-circle" size="1.5rem" class="text-slate-900" /> Pinterest
           </a>
           <a href="https://www.twitter.com/thisismymomoir" class="py-4">
-            <Icon name="entypo-social:twitter" size="1.5rem" class="text-slate-900" /> on Twitter
+            <Icon name="entypo-social:twitter" size="1.5rem" class="text-slate-900" /> Twitter
           </a>
         </div>
       </div>

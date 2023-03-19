@@ -18,7 +18,7 @@
                   class="min-w-0 flex-auto rounded-md border-0 bg-white px-3.5 py-2 text-slate-900 shadow-sm ring-1 ring-inset ring-white/10 focus:ring-2 focus:ring-inset focus:ring-indigo-500 sm:text-sm sm:leading-6"
                   placeholder="Enter your email">
                 <button type="submit"
-                  class="flex-none rounded-md bg-indigo-300 py-2.5 px-3.5 text-sm font-semibold text-slate-900 shadow-sm hover:bg-indigo-400 focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-indigo-500">Subscribe</button>
+                  class="flex-none rounded-md bg-rose-200 py-2.5 px-3.5 text-sm font-semibold text-slate-900 shadow-sm hover:bg-indigo-400 focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-indigo-500">Subscribe</button>
               </div>
             </div>
             <dl class="grid grid-cols-1 gap-x-8 gap-y-10 sm:grid-cols-2 lg:pt-2">
@@ -31,7 +31,7 @@
                   </svg>
                 </div>
                 <dt class="mt-4 font-semibold text-slate-900">Monthly Updates</dt>
-                <dd class="mt-2 leading-7 text-slate-900">I will send you an update each month to keep you filled in with
+                <dd class="mt-2 leading-7 text-slate-900">I will send you an update each month to keep you filled in on
                   what I have been up to.</dd>
               </div>
               <div class="flex flex-col items-start">
@@ -73,7 +73,7 @@
         <NuxtLink to="/privacy" class="underline hover:opacity-90 hover:no-underline">Privacy Policy</NuxtLink> &#8226;
         <NuxtLink to="/contact" class="underline hover:opacity-90 hover:no-underline">Contact Me</NuxtLink>
       </nav>
-      <p class="text-center">Copyright &copy; <span>2023</span>.This is my Momoir. All Rights Reserved</p>
+      <p class="text-center">Copyright &copy; <span>2023</span>This is my Momoir. All Rights Reserved.</p>
       <div class="flex flex-row justify-center gap-4 mb-8 mt-2">
         <a href="https://pinterest.com/thisismymomoir">
           <Icon name="entypo-social:pinterest-with-circle" size="1.5rem" class="text-slate-900" />

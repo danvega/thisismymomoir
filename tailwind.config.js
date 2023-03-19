@@ -11,6 +11,11 @@ export default {
           200: 'd799a0'
         }
       },
+      fontFamily: {
+        ptserif: ['PT Serif'],
+        cormorant: ['Cormorant Garamond'],
+        turbinado: ['Turbinado Pro'],
+      },
       keyframes: {
         'open-menu': {
           '0%': { transform: 'scaleY(0)' },

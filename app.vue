@@ -2,7 +2,7 @@
   <header class="text-gray-800" style="font-family: 'PT Serif', serif;">
     <section class="mx-auto flex max-w-6xl items-center justify-between p-4">
       <h1 class="text-5xl font-medium md:text-3xl lg:text-5xl">
-        <NuxtLink to="/" class="font-bold" style="font-family: 'turbinado-pro', sans-serif">This is my Momoir</NuxtLink>
+        <NuxtLink to="/" class="font-bold font-turbinado">This is my Momoir</NuxtLink>
       </h1>
       <div>
         <button id="hamburger-button" class="relative h-8 w-8 cursor-pointer text-3xl md:hidden">
@@ -36,33 +36,6 @@
   </header>
   <NuxtPage />
   <SiteFooter />
-  <!-- <footer class="bg-primary p-4 flex flex-col text-center gap-4">
-    <nav class="text-sm md:text-lg text-slate-900">
-      <NuxtLink to=" /" class="hover:opacity-90 hover:underline">Home</NuxtLink> &#8226;
-      <NuxtLink to="/blog/about" class="hover:opacity-90 hover:underline">About Me</NuxtLink> &#8226;
-      <NuxtLink to="/disclaimer" class="hover:opacity-90 hover:underline">Disclaimer</NuxtLink> &#8226;
-      <NuxtLink to="/privacy" class="hover:opacity-90 hover:underline">Privacy Policy</NuxtLink> &#8226;
-      <NuxtLink to="/contact" class="hover:opacity-90 hover:underline">Contact Me</NuxtLink>
-    </nav>
-    <div class="">
-      <p class="text-sm">Copyright &copy; <span>2023</span>.</p>
-      <p>This is my Momoir. All Rights Reserved</p>
-    </div>
-    <div class="flex flex-row justify-center gap-4">
-      <a href="https://pinterest.com/thisismymomoir">
-        <Icon name="entypo-social:pinterest-with-circle" size="1.25rem" class="text-slate-900" />
-      </a>
-      <a href="https://www.facebook.com/thisismymomoir">
-        <Icon name="entypo-social:facebook" size="1.25rem" class="text-slate-900" />
-      </a>
-      <a href="https://www.instagram.com/thisismymomoir">
-        <Icon name="entypo-social:instagram" size="1.25rem" class="text-slate-900" />
-      </a>
-      <a href="https://www.twitter.com/thisismymomoir">
-        <Icon name="entypo-social:twitter" size="1.25rem" class="text-slate-900" />
-      </a>
-    </div>
-  </footer> -->
 </template>
 
 <script setup lang="ts">

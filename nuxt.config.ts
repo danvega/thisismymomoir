@@ -1,4 +1,3 @@
-import { sitemap } from '@nuxtjs/sitemap';
 import GoogleFontsModule from '@nuxtjs/google-fonts'
 
 // https://nuxt.com/docs/api/configuration/nuxt-config

@@ -14,7 +14,7 @@
 
       <div class="lg:w-2/3 p-4">
         <p class="text-base text-gray-800 text-left mb-4 font-normal">This Privacy Policy explains how This Is My
-          Memoir ("we," "us," or "our") collects, uses, and discloses your
+          Momoir ("we," "us," or "our") collects, uses, and discloses your
           personal information when you visit or use our website, www.thisismymemoir.com (the "Website"). By using our
           Website, you agree to the collection and use of information in accordance with this Privacy Policy.</p>
         <h3 id="collect" class="text-3xl font-bold leading-tight text-gray-900 mb-2">Information We Collect</h3>
