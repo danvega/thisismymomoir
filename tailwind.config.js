@@ -1,5 +1,8 @@
 import defaultTheme from 'tailwindcss/defaultTheme'
 export default {
+  plugins: [
+    require('@tailwindcss/forms'),
+  ],
   theme: {
     extend: {
       colors: {

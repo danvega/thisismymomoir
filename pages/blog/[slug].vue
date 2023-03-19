@@ -25,5 +25,6 @@ const publishedOnFormatted = useDateFormat(post.publishedOn, 'MM/DD/YYYY', { loc
     <section class="mx-4 md:mx-auto max-w-3xl selection:bg-primary">
       <BlockRenderer v-for="block in post?.content" :key="block.id" :block="block" />
     </section>
+    <BlogNewsletterSignup />
   </main>
 </template>
