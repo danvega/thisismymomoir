@@ -4,7 +4,7 @@ import BlockRenderer from '~~/components/notion/BlockRenderer.vue';
 
 const slug = useRoute().params.slug;
 const { data: post } = await useFetch<Post>(`/api/notion/page/${slug}`);
-const publishedOnFormatted = useDateFormat(post?.publishedOn, 'MM/DD/YYYY', { locales: 'en-US' });
+const publishedOnFormatted = useDateFormat(post.publishedOn, 'MM/DD/YYYY', { locales: 'en-US' });
 </script>
 
 <template>
