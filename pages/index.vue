@@ -4,10 +4,11 @@
 
 <template>
   <main class="bg-primary">
-    <section class="mx-auto max-w-6xl flex flex-col lg:flex-row mb-4">
-      <article class="lg:w-1/3 bg-white rounded p-4 shadow mt-4 mx-4">
-        <h2 class="text-4xl mb-2 font-bold" style="font-family: 'Cormorant Garamond', serif">Hello, I'm Jen Vega!</h2>
-        <p class="leading-7 text-slate-900">I am the creator and writer of This Is My Momoir. Thank you so much for being
+    <section class="mx-4 lg:mx-auto max-w-6xl flex flex-col lg:flex-row">
+      <article class="mt-4 p-4 lg:w-1/3 lg:mb-4 bg-white rounded shadow">
+        <h2 class="text-4xl mb-4 font-bold" style="font-family: 'Cormorant Garamond', serif">Hello, I'm Jen Vega!</h2>
+        <p class="text-base text-slate-900">I am the creator and writer of This Is My Momoir. Thank
+          you so much for being
           here! Aside from being a writer, I am the wife of a pretty awesome guy named Dan Vega and the mom of two
           adorable little girls, Isabella and Juliana. We are lifelong Clevelanders living in the suburb of Rocky River,
           Ohio. I love reading and writing and have a Bachelor of Arts degree in English from Cleveland State University.
@@ -29,12 +30,13 @@
           </a>
         </div>
       </article>
-      <article class="lg:w-2/3 mx-4">
+      <article class="lg:w-2/3 lg:ml-4 my-4">
         <NuxtLink to="/blog/welcome">
           <img src="/images/home/mom-girls-dress-up.png" alt="Welcome to This is my Momoir"
-            sizes="(max-width: 640px) 100vw, (max-width: 768px) 50vw, 724px" srcset="/images/home/mom-girls-dress-up-640.png 640w,
-                        /images/home/mom-girls-dress-up-384.png 384w,
-                        /images/home/mom-girls-dress-up-724.png 724w" class="w-full my-4" />
+            sizes="(max-width: 640px) 100vw, (max-width: 768px) 50vw, 724px"
+            srcset="/images/home/mom-girls-dress-up-640.png 640w,
+                                                                              /images/home/mom-girls-dress-up-384.png 384w,
+                                                                              /images/home/mom-girls-dress-up-724.png 724w" class="lg:h-full w-full rounded shadow" />
         </NuxtLink>
       </article>
     </section>
@@ -52,10 +54,10 @@
         </div>
         <img src="/images/envelope.png" alt="envelope" class="h-36 hidden">
       </article>
-
     </section>
+
     <section class="bg-white p-4">
-      <article class="max-w-6xl mx-auto grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-4 my-4">
+      <article class="max-w-6xl mx-auto grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-4">
         <BlogCategoryCard title="Welcome" link="welcome" img="welcome-386.jpg" />
         <BlogCategoryCard title="#MomLife" link="category/momlife" img="momlife-386.jpg" />
         <BlogCategoryCard title="Health & Wellness" link="category/health-wellness" img="health_wellness-386.jpg" />

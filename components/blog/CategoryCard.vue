@@ -10,7 +10,7 @@ const props = defineProps({
   <div class="bg-slate-50 rounded shadow-md overflow-hidden hover:opacity-75">
     <h3 class="bg-primary p-2 text-center font-semibold">{{ title }}</h3>
     <NuxtLink :to="`/blog/${link}`">
-      <img :src="`/images/category/${img}`" class="h-full object-cover" />
+      <img :src="`/images/category/${img}`" class="w-full h-full object-cover" />
     </NuxtLink>
   </div>
 </template>

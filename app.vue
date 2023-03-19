@@ -10,7 +10,7 @@
             class="absolute top-4 -mt-0.5 h-1 w-8 rounded bg-primary transition-all duration-500 before:absolute before:h-1 before:w-8 before:-translate-x-4 before:-translate-y-3 before:rounded before:bg-primary before:transition-all before:duration-500 before:content-[''] after:absolute after:h-1 after:w-8 after:-translate-x-4 after:translate-y-3 after:rounded after:bg-primary after:transition-all after:duration-500 after:content-['']">
           </div>
         </button>
-        <nav class="hidden space-x-8 text-xl md:block md:text-lg md:space-x-4" aria-label="main">
+        <nav class="hidden space-x-8 text-xl md:block md:text-base md:space-x-4" aria-label="main">
           <NuxtLink to="/blog/category/momlife" class="hover:opacity-90">#MomLife</NuxtLink>
           <NuxtLink to="/blog/category/health-wellness" class="hover:opacity-90">Health & Wellness</NuxtLink>
           <NuxtLink to="/blog/category/meal-planning-recipes" class="hover:opacity-90">Recipes & Meal Planning</NuxtLink>
