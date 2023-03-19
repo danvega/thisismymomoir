@@ -11,11 +11,16 @@
           </div>
         </button>
         <nav class="hidden space-x-8 text-xl md:block md:text-base md:space-x-4" aria-label="main">
-          <NuxtLink to="/blog/category/momlife" class="hover:opacity-90">#MomLife</NuxtLink>
-          <NuxtLink to="/blog/category/health-wellness" class="hover:opacity-90">Health & Wellness</NuxtLink>
-          <NuxtLink to="/blog/category/meal-planning-recipes" class="hover:opacity-90">Recipes & Meal Planning</NuxtLink>
-          <NuxtLink to="/blog/category/celebrate" class="hover:opacity-90">Celebrate!</NuxtLink>
-          <NuxtLink to="/blog/category/travel" class="hover:opacity-90">Travel</NuxtLink>
+          <NuxtLink to="/blog/category/momlife" class="text-lg p-2 rounded hover:bg-primary hover:opacity-90">#MomLife
+          </NuxtLink>
+          <NuxtLink to="/blog/category/health-wellness" class="text-lg p-2 rounded hover:bg-primary hover:opacity-90">
+            Health & Wellness</NuxtLink>
+          <NuxtLink to="/blog/category/meal-planning-recipes"
+            class="text-lg p-2 rounded hover:bg-primary hover:opacity-90">Recipes & Meal Planning</NuxtLink>
+          <NuxtLink to="/blog/category/celebrate" class="text-lg p-2 rounded hover:bg-primary hover:opacity-90">Celebrate!
+          </NuxtLink>
+          <NuxtLink to="/blog/category/travel" class="text-lg p-2 rounded hover:bg-primary hover:opacity-90">Travel
+          </NuxtLink>
         </nav>
       </div>
     </section>
