@@ -41,6 +41,7 @@ export default defineEventHandler(async (event) => {
       title: post.properties.Name.title[0].plain_text,
       slug: post.properties.Slug.rich_text[0].plain_text,
       cover: post.properties.Image.files[0]?.file.url,
+      publishedOn: post.properties['Date Created'].date.start,
     });
   });
 
