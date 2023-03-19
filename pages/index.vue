@@ -3,11 +3,11 @@
 </script>
 
 <template>
-  <main class="bg-primary">
+  <main class="bg-primary ">
     <section class="mx-4 lg:mx-auto max-w-6xl flex flex-col lg:flex-row">
       <article class="mt-4 p-4 lg:w-1/3 lg:mb-4 bg-white rounded shadow">
-        <h2 class="text-4xl mb-4 font-bold" style="font-family: 'Cormorant Garamond', serif">Hello, I'm Jen Vega!</h2>
-        <p class="text-base text-slate-900">I am the creator and writer of This Is My Momoir. Thank
+        <h2 class="text-4xl mb-4 font-cormorant font-bold">Hello, I'm Jen Vega!</h2>
+        <p class="text-slate-900">I am the creator and writer of This Is My Momoir. Thank
           you so much for being
           here! Aside from being a writer, I am the wife of a pretty awesome guy named Dan Vega and the mom of two
           adorable little girls, Isabella and Juliana. We are lifelong Clevelanders living in the suburb of Rocky River,
@@ -35,15 +35,16 @@
           <img src="/images/home/mom-girls-dress-up.png" alt="Welcome to This is my Momoir"
             sizes="(max-width: 640px) 100vw, (max-width: 768px) 50vw, 724px"
             srcset="/images/home/mom-girls-dress-up-640.png 640w,
-                                                                              /images/home/mom-girls-dress-up-384.png 384w,
-                                                                              /images/home/mom-girls-dress-up-724.png 724w" class="lg:h-full w-full rounded shadow" />
+                                                                                                        /images/home/mom-girls-dress-up-384.png 384w,
+                                                                                                        /images/home/mom-girls-dress-up-724.png 724w"
+            class="lg:h-full w-full rounded shadow" />
         </NuxtLink>
       </article>
     </section>
     <section class="bg-slate-100 p-8">
       <article class="mx-auto max-w-6xl flex flex-col md:flex-row gap-4">
         <div class="flex-1">
-          <h2 class="text-3xl md:text-4xl mb-2">Stay in touch with me</h2>
+          <h2 class="text-3xl md:text-4xl mb-2 font-cormorant font-bold">Stay in touch with me</h2>
           <p class="text-slate-900 mb-4">Sign up for my monthly newsletter and stay up to date with current blog posts.
           </p>
           <form action="" class="md:w-1/2">

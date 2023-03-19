@@ -10,7 +10,7 @@ const publishedOnFormatted = useDateFormat(post.publishedOn, 'MM/DD/YYYY', { loc
 <template>
   <section class="bg-primary p-8 mb-4">
     <div class="mx-4 md:mx-auto max-w-3xl">
-      <h1 class="text-4xl font-bold leading-tight text-gray-900">{{ post?.title }}</h1>
+      <h1 class="text-4xl font-cormorant font-bold leading-tight text-gray-900">{{ post?.title }}</h1>
       <div class="flex flex-col md:flex-row gap-4">
         <p class="text-sm lg:text-base">
           <Icon name="material-symbols:edit-square-outline" size="18px" /> Written By: {{ post?.author }}
@@ -25,6 +25,5 @@ const publishedOnFormatted = useDateFormat(post.publishedOn, 'MM/DD/YYYY', { loc
     <section class="mx-4 md:mx-auto max-w-3xl selection:bg-primary">
       <BlockRenderer v-for="block in post?.content" :key="block.id" :block="block" />
     </section>
-    <!-- <BlogNewsletterSignup /> -->
   </main>
 </template>

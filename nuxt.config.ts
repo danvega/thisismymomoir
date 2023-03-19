@@ -30,8 +30,8 @@ export default defineNuxtConfig({
   },
   googleFonts: {
     families: {
-      'PT Serif': true,
-      'Cormorant Garamond': [400, 700]
+      'PT Serif': [300,400],
+      'Cormorant Garamond': [300,400,500,600,700]
     }
   },
   app: {

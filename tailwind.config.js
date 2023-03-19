@@ -14,7 +14,7 @@ export default {
       fontFamily: {
         ptserif: ['PT Serif'],
         cormorant: ['Cormorant Garamond'],
-        turbinado: ['Turbinado Pro'],
+        turbinado: ['Turbinado Pro, sans-serif']
       },
       keyframes: {
         'open-menu': {
