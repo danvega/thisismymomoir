@@ -68,7 +68,7 @@
 
 useHead({
   bodyAttrs: {
-    class: 'min-h-screen'
+    class: 'min-h-screen',
   }
 })
 
