@@ -8,15 +8,15 @@
     <section class="bg-primary p-4 lg:mx-auto lg:max-w-6xl">
       <h2 class="text-4xl font-bold leading-tight text-gray-900">Privacy Policy</h2>
       <p class="text-base text-gray-800 text-left mb-4 font-normal">Last updated: March 19, 2023</p>
-      <p class="text-base text-gray-800 text-left mb-4 font-normal">This Privacy Policy explains how This Is My
-        Memoir ("we," "us," or "our") collects, uses, and discloses your
-        personal information when you visit or use our website, www.thisismymemoir.com (the "Website"). By using our
-        Website, you agree to the collection and use of information in accordance with this Privacy Policy.</p>
     </section>
 
     <section class="mx-auto max-w-6xl mb-4 flex flex-col-reverse lg:flex-row">
 
       <div class="lg:w-2/3 p-4">
+        <p class="text-base text-gray-800 text-left mb-4 font-normal">This Privacy Policy explains how This Is My
+          Memoir ("we," "us," or "our") collects, uses, and discloses your
+          personal information when you visit or use our website, www.thisismymemoir.com (the "Website"). By using our
+          Website, you agree to the collection and use of information in accordance with this Privacy Policy.</p>
         <h3 id="collect" class="text-3xl font-bold leading-tight text-gray-900 mb-2">Information We Collect</h3>
 
         <p class="text-base text-gray-800 text-left mb-4 font-normal">When you use our Website, we may collect and process
