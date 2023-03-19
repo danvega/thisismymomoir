@@ -6,7 +6,8 @@ export default defineNuxtConfig({
     '@nuxtjs/tailwindcss',
     '@nuxtjs/google-fonts',
     '@nuxt/image-edge',
-    'nuxt-icon'
+    'nuxt-icon',
+    'nuxt-gtag'
   ],
   plugins: ['~/plugins/medium-zoom'],
   image: {
@@ -36,5 +37,7 @@ export default defineNuxtConfig({
       link: [{ rel: 'stylesheet', href: 'https://use.typekit.net/qbx5zks.css' }]
     }
   },
-
+  gtag: {
+    id: 'G-QHP11Y0FRR'
+  }
 })
