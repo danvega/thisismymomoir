@@ -30,6 +30,7 @@
           Meal Planning</NuxtLink>
         <NuxtLink to="/blog/category/celebrate" class="w-full py-6 text-center hover:opacity-90">Celebrate!</NuxtLink>
         <NuxtLink to="/blog/category/travel" class="w-full py-6 text-center hover:opacity-90">Travel</NuxtLink>
+        <NuxtLink to="/blog/about" class="w-full py-6 text-center hover:opacity-90">About Me</NuxtLink>
       </nav>
     </section>
   </header>
