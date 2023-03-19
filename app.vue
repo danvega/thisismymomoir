@@ -1,7 +1,7 @@
 <template>
   <header class="text-gray-800" style="font-family: 'PT Serif', serif;">
     <section class="mx-auto flex max-w-6xl items-center justify-between p-4">
-      <h1 class="text-5xl font-medium md:text-3xl">
+      <h1 class="text-5xl font-medium md:text-3xl lg:text-5xl">
         <NuxtLink to="/" class="font-bold" style="font-family: 'turbinado-pro', sans-serif">This is my Momoir</NuxtLink>
       </h1>
       <div>
