@@ -44,7 +44,6 @@ export default defineNuxtConfig({
     id: 'G-QHP11Y0FRR'
   },
   sitemap: {
-    siteUrl: 'https://thisismymomoir.com',
-    sitemap: '/sitemap.xml',
+    siteUrl: 'https://www.thisismymomoir.com'
   }
 })
