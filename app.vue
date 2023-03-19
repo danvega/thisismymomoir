@@ -34,7 +34,8 @@
     </section>
   </header>
   <NuxtPage />
-  <footer class="bg-primary p-4 flex flex-col text-center gap-4">
+  <SiteFooter />
+  <!-- <footer class="bg-primary p-4 flex flex-col text-center gap-4">
     <nav class="text-sm md:text-lg text-slate-900">
       <NuxtLink to=" /" class="hover:opacity-90 hover:underline">Home</NuxtLink> &#8226;
       <NuxtLink to="/blog/about" class="hover:opacity-90 hover:underline">About Me</NuxtLink> &#8226;
@@ -60,7 +61,7 @@
         <Icon name="entypo-social:twitter" size="1.25rem" class="text-slate-900" />
       </a>
     </div>
-  </footer>
+  </footer> -->
 </template>
 
 <script setup lang="ts">

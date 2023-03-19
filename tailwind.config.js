@@ -6,7 +6,10 @@ export default {
   theme: {
     extend: {
       colors: {
-        primary: '#E0C3C6'
+        primary: {
+          DEFAULT: '#E0C3C6',
+          200: 'd799a0'
+        }
       },
       keyframes: {
         'open-menu': {
