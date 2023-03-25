@@ -1,4 +1,5 @@
 import GoogleFontsModule from '@nuxtjs/google-fonts'
+import { Meta } from './.nuxt/components'
 
 // https://nuxt.com/docs/api/configuration/nuxt-config
 export default defineNuxtConfig({
@@ -36,7 +37,13 @@ export default defineNuxtConfig({
   },
   app: {
     head: {
-      link: [{ rel: 'stylesheet', href: 'https://use.typekit.net/qbx5zks.css' }]
+      charset: 'utf-8',
+      viewport: 'width=device-width, initial-scale=1',
+      link: [{ rel: 'stylesheet', href: 'https://use.typekit.net/qbx5zks.css' }],
+      meta: [{
+        name: 'keywords',
+        content: 'This is my Momoir, Momoir, Mom Blog, #MomLife, Health & Wellness, Recipes & Meal Planning, Celebrate!, Travel, Mom Bloggers, Mom Blogging'
+      }]
     }
   },
   gtag: {

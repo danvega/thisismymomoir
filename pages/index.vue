@@ -1,5 +1,12 @@
 <script setup lang="ts">
-
+useServerSeoMeta({
+  title: 'This is my Momoir - Home',
+  ogTitle: 'This is my Momoir',
+  description: 'This is my Momoir, a memoir (in blog form) of everything I have learned on this beautiful, exhausting, magical journey known as motherhood.',
+  ogDescription: 'This is my Momoir, a memoir (in blog form) of everything I have learned on this beautiful, exhausting, magical journey known as motherhood.',
+  ogImage: 'http://www.thisismymomoir.com/this-is-my-momoir-og.png',
+  twitterCard: 'summary_large_image',
+})
 </script>
 
 <template>
@@ -35,8 +42,8 @@
           <img src="/images/home/mom-girls-dress-up.png" alt="Welcome to This is my Momoir"
             sizes="(max-width: 640px) 100vw, (max-width: 768px) 50vw, 724px"
             srcset="/images/home/mom-girls-dress-up-640.png 640w,
-                                                                                                        /images/home/mom-girls-dress-up-384.png 384w,
-                                                                                                        /images/home/mom-girls-dress-up-724.png 724w"
+                                                                                                                            /images/home/mom-girls-dress-up-384.png 384w,
+                                                                                                                            /images/home/mom-girls-dress-up-724.png 724w"
             class="lg:h-full w-full rounded shadow" />
         </NuxtLink>
       </article>
