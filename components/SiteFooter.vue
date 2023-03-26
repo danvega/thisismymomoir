@@ -12,20 +12,9 @@ import FooterNewsletterSignup from './blog/FooterNewsletterSignup.vue';
           <div class="mx-auto grid max-w-2xl grid-cols-1 gap-y-16 gap-x-8 lg:max-w-none lg:grid-cols-2">
             <div class="max-w-xl lg:max-w-lg">
               <h2 class="text-3xl font-bold tracking-tight text-slate-900 sm:text-4xl">Subscribe to my newsletter.</h2>
-            <p class="mt-4 text-lg leading-8 text-slate-900">Sign up for my monthly newsletter and stay up to date with
-              current blog posts.</p>
-
-            <FooterNewsletterSignup />
-
-            <!-- <div class="mt-6 flex max-w-md gap-x-4">
-                <label for="email-address" class="sr-only">Email address</label>
-                  <input id="email-address" name="email" type="email" autocomplete="email" required
-                    class="min-w-0 flex-auto rounded-md border-0 bg-white px-3.5 py-2 text-slate-900 shadow-sm ring-1 ring-inset ring-white/10 focus:ring-2 focus:ring-inset focus:ring-indigo-500 sm:text-sm sm:leading-6"
-                    placeholder="Enter your email">
-                  <button type="submit"
-                    class="flex-none rounded-md bg-rose-200 py-2.5 px-3.5 text-sm font-semibold text-slate-900 shadow-sm hover:bg-indigo-400 focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-indigo-500">Subscribe</button>
-                </div> -->
-
+              <p class="mt-4 text-lg leading-8 text-slate-900">Sign up for my monthly newsletter and stay up to date with
+                current blog posts.</p>
+              <FooterNewsletterSignup />
             </div>
             <dl class="grid grid-cols-1 gap-x-8 gap-y-10 sm:grid-cols-2 lg:pt-2">
               <div class="flex flex-col items-start">
@@ -79,7 +68,7 @@ import FooterNewsletterSignup from './blog/FooterNewsletterSignup.vue';
         <NuxtLink to="/privacy" class="underline hover:opacity-90 hover:no-underline">Privacy Policy</NuxtLink> &#8226;
         <NuxtLink to="/contact" class="underline hover:opacity-90 hover:no-underline">Contact Me</NuxtLink>
       </nav>
-      <p class="text-center">Copyright &copy; <span>2023</span>This is my Momoir. All Rights Reserved.</p>
+      <p class="text-center">Copyright &copy; <span>2023</span>. This is my Momoir. All Rights Reserved.</p>
       <div class="flex flex-row justify-center gap-4 mb-8 mt-2">
         <a href="https://pinterest.com/thisismymomoir">
           <Icon name="entypo-social:pinterest-with-circle" size="1.5rem" class="text-slate-900" />
