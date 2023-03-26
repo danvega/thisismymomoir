@@ -42,27 +42,14 @@ useServerSeoMeta({
           <img src="/images/home/mom-girls-dress-up.png" alt="Welcome to This is my Momoir"
             sizes="(max-width: 640px) 100vw, (max-width: 768px) 50vw, 724px"
             srcset="/images/home/mom-girls-dress-up-640.png 640w,
-                                                                                                                            /images/home/mom-girls-dress-up-384.png 384w,
-                                                                                                                            /images/home/mom-girls-dress-up-724.png 724w"
+                                                                                                                              /images/home/mom-girls-dress-up-384.png 384w,
+                                                                                                                              /images/home/mom-girls-dress-up-724.png 724w"
             class="lg:h-full w-full rounded shadow" />
         </NuxtLink>
       </article>
     </section>
-    <section class="bg-slate-100 p-8">
-      <article class="mx-auto max-w-6xl flex flex-col md:flex-row gap-4">
-        <div class="flex-1">
-          <h2 class="text-3xl md:text-4xl mb-2 font-cormorant font-bold">Stay in touch with me</h2>
-          <p class="text-slate-900 mb-4">Sign up for my monthly newsletter and stay up to date with current blog posts.
-          </p>
-          <form action="" class="md:w-1/2">
-            <input type="email" name="email" id="email" placeholder="Enter your email address" class="w-full p-3 rounded">
-            <button class="bg-primary p-3 mt-4 rounded font-semibold hover:opacity-90 w-full"
-              type="submit">Subscribe</button>
-          </form>
-        </div>
-        <img src="/images/envelope.png" alt="envelope" class="h-36 hidden">
-      </article>
-    </section>
+
+    <BlogHomeNewsletterSignup />
 
     <section class="bg-white p-4">
       <article class="max-w-6xl mx-auto grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-4">
