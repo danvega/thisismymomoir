@@ -47,6 +47,7 @@ declare global {
     paragraph: paragraph | null;
     image: image | null;
     bulleted_list_item: bulleted_list_item | null;
+    video: video | null;
   }
 
   interface heading_1 {
@@ -107,6 +108,17 @@ declare global {
     rich_text: rich_text[]
   }
 
+  interface video {
+    caption: string,
+    type: string,
+    file: {
+      url: string,
+      expiry_time: string
+    } | null,
+    external: {
+      url: string
+    } | null
+  }
 
   interface NotionPage {
     object: string;

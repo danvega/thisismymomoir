@@ -6,6 +6,7 @@ import Image from './Image.vue';
 import Paragraph from './Paragraph.vue';
 import BulletedList from './BulletedList.vue';
 import ColumnList from './ColumnList.vue';
+import Video from './Video.vue'
 
 const props = defineProps({
   block: { type: Object as PropType<Block>, default: () => ({}) },
@@ -19,7 +20,8 @@ const currentBlock: { [key: string]: Component } = {
   paragraph: Paragraph,
   image: Image,
   bulleted_list_item: BulletedList,
-  column_list: ColumnList
+  column_list: ColumnList,
+  video: Video
 };
 </script>
 

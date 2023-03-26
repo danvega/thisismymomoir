@@ -2,6 +2,7 @@ import defaultTheme from 'tailwindcss/defaultTheme'
 export default {
   plugins: [
     require('@tailwindcss/forms'),
+    require('@tailwindcss/aspect-ratio'),
   ],
   theme: {
     extend: {
