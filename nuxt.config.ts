@@ -27,7 +27,8 @@ export default defineNuxtConfig({
     // Static page generated on-demand, revalidates in background
     '/blog/**': { swr: true },
     '/disclaimer': { static: true },
-    '/privacy': { static: true }
+    '/privacy': { static: true },
+    '/contact': { static: true },
   },
   googleFonts: {
     families: {
