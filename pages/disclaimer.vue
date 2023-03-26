@@ -47,7 +47,6 @@ useServerSeoMeta({
 
       <ul class="list-disc pl-8">
         <li class="text-base text-gray-800 text-left mb-4 font-normal">Vrbo</li>
-        <li class="text-base text-gray-800 text-left mb-4 font-normal">Target</li>
       </ul>
 
       <p class="text-base text-gray-800 text-left mb-4 font-normal"> We are
