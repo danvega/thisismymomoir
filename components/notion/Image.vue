@@ -1,6 +1,6 @@
 <template>
   <!-- <NuxtImg :src="imgSrc" class="w-full my-4 zoom" sizes="sm:100vw md:50vw lg:1152px" /> -->
-  <img :src="imgSrc" class="w-full my-4 zoom" alt="" />
+  <img :src="imgSrc" class="w-full my-4 zoom" :alt="imgAlt" />
 </template>
 
 <script setup lang="ts">
@@ -10,6 +10,14 @@ const props = defineProps({
 });
 
 const imgSrc = ref('');
+const imgAlt = ref('');
+if (props.block.image?.caption?.length) {
+  const caption = props.block.image.caption[0];
+  if (caption.type == 'text') {
+    imgAlt.value = caption.plain_text;
+    console.log(imgAlt.value);
+  }
+}
 switch (props.block.image?.type) {
   case 'external':
     imgSrc.value = props.block.image.external?.url;

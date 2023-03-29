@@ -74,7 +74,7 @@ declare global {
   }
 
   interface image {
-    caption: [],
+    caption: [caption] | [],
     type: string,
     external: {
       url: string
@@ -82,6 +82,17 @@ declare global {
     file: {
       url: string
     },
+  }
+
+  interface caption {
+    type: string;
+    text: {
+      content: string;
+      link: {} | null;
+    },
+    annotations: {};
+    plain_text: string;
+    href: string | null;
   }
 
   interface rich_text {
