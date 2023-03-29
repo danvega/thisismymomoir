@@ -10,7 +10,8 @@ const publishedOnFormatted = useDateFormat(props.post.publishedOn, 'MM/DD/YYYY',
 
 <template>
   <NuxtLink :to="`/blog/${post.slug}`">
-    <NuxtImg :src="post.cover" class="w-full h-48 object-cover rounded-md" sizes="sm:100vw md:50vw lg:400px" />
+    <!-- <NuxtImg :src="post.cover" class="w-full h-48 object-cover rounded-md" sizes="sm:100vw md:50vw lg:400px" /> -->
+    <img :src="post.cover" class="w-full h-48 object-cover rounded-md" />
   </NuxtLink>
   <div class="p-6">
     <h2 class="text-xl font-bold mb-2">{{ post.title }}</h2>
