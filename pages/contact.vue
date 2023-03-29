@@ -20,6 +20,7 @@ useServerSeoMeta({
           to hear from you. For your convenience, I've provided a simple message form below that you can use to send me a
           message directly. Just fill it out, hit "Send Message," and I'll get back to you as soon as I can..</p>
         <form name="contact" netlify class="space-y-8" data-netlify="true">
+          <input type="hidden" name="form-name" value="contact" />
           <div>
             <label for="name" class="block mb-2 text-sm font-medium text-gray-900 dark:text-gray-300">Your Name</label>
             <input type="text" id="name"
