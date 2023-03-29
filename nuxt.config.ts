@@ -24,8 +24,7 @@ export default defineNuxtConfig({
     },
   },
   routeRules: {
-    // Static page generated on-demand, revalidates in background
-    '/blog/**': { swr: true },
+    '/blog/**': { swr: 60, },
     '/disclaimer': { static: true },
     '/privacy': { static: true },
     '/contact': { static: true },
