@@ -10,6 +10,7 @@ const { data: blockList } = await useFetch<Block[]>(`/api/notion/blocks/${props.
 const blocks: Block[] = [];
 blockList.value?.forEach(async (block) => {
   const content = await getBlockDetails(block.id);
+  console.log(content);
   if (content.length == 1) {
     blocks.push(content[0]);
   }
@@ -18,7 +19,6 @@ blockList.value?.forEach(async (block) => {
 async function getBlockDetails(id: string): Promise<Block[]> {
   // const { data } = useFetch<Block[]>(`/api/notion/blocks/${id}`);
   const data: Block[] = await $fetch(`/api/notion/blocks/${id}`);
-  console.log(data);
   return data || [];
 }
 </script>
