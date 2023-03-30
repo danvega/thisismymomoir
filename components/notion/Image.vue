@@ -15,7 +15,6 @@ if (props.block.image?.caption?.length) {
   const caption = props.block.image.caption[0];
   if (caption.type == 'text') {
     imgAlt.value = caption.plain_text;
-    console.log(imgAlt.value);
   }
 }
 switch (props.block.image?.type) {
