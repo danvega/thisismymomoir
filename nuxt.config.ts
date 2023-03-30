@@ -24,7 +24,7 @@ export default defineNuxtConfig({
     },
   },
   routeRules: {
-    '/blog/**': { swr: 60, },
+    '/blog/**': { swr: 30, },
     '/disclaimer': { static: true },
     '/privacy': { static: true },
     '/contact': { static: true },
