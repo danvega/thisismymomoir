@@ -2,7 +2,7 @@
   <header class="text-gray-800">
     <section class="mx-auto flex max-w-6xl items-center justify-between p-4">
       <h1 class="text-5xl font-medium md:text-3xl lg:text-5xl">
-        <NuxtLink to="/" class="font-turbinado">This is my Momoir</NuxtLink>
+        <NuxtLink to="/" class="font-turbinado">This Is My Momoir</NuxtLink>
       </h1>
       <div>
         <button id="hamburger-button" class="relative h-8 w-8 cursor-pointer text-3xl lg:hidden">

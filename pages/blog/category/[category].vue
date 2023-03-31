@@ -11,10 +11,10 @@ if (category == null) {
 const { data: posts } = await useFetch<Post[]>("/api/notion/posts/" + encodeURI(category.notionCategory));
 
 useServerSeoMeta({
-  title: 'This is my Momoir - ' + category.name,
-  ogTitle: 'This is my Momoir - ' + category.name,
-  description: 'This is my Momoir, a memoir (in blog form) of everything I have learned on this beautiful, exhausting, magical journey known as motherhood.',
-  ogDescription: 'This is my Momoir, a memoir (in blog form) of everything I have learned on this beautiful, exhausting, magical journey known as motherhood.',
+  title: 'This Is My Momoir - ' + category.name,
+  ogTitle: 'This Is My Momoir - ' + category.name,
+  description: 'This Is My Momoir, a memoir (in blog form) of everything I have learned on this beautiful, exhausting, magical journey known as motherhood.',
+  ogDescription: 'This Is My Momoir, a memoir (in blog form) of everything I have learned on this beautiful, exhausting, magical journey known as motherhood.',
   ogImage: 'http://www.thisismymomoir.com/',
   twitterCard: 'summary_large_image',
 })

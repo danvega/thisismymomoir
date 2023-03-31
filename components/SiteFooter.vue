@@ -68,7 +68,7 @@ import FooterNewsletterSignup from './blog/FooterNewsletterSignup.vue';
         <NuxtLink to="/privacy" class="underline hover:opacity-90 hover:no-underline">Privacy Policy</NuxtLink> &#8226;
         <NuxtLink to="/contact" class="underline hover:opacity-90 hover:no-underline">Contact Me</NuxtLink>
       </nav>
-      <p class="text-center">Copyright &copy; <span>2023</span>. This is my Momoir. All Rights Reserved.</p>
+      <p class="text-center">Copyright &copy; <span>2023</span>. This Is My Momoir. All Rights Reserved.</p>
       <div class="flex flex-row justify-center gap-4 mb-8 mt-2">
         <a href="https://pinterest.com/thisismymomoir">
           <Icon name="entypo-social:pinterest-with-circle" size="1.5rem" class="text-slate-900" />

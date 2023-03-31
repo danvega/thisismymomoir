@@ -10,8 +10,8 @@ const publishedOnFormatted = useDateFormat(post?.publishedOn, 'MM/DD/YYYY', { lo
 useServerSeoMeta({
   title: `${post.title}`,
   ogTitle: `${post.title}`,
-  description: 'This is my Momoir, a memoir (in blog form) of everything I have learned on this beautiful, exhausting, magical journey known as motherhood.',
-  ogDescription: 'This is my Momoir, a memoir (in blog form) of everything I have learned on this beautiful, exhausting, magical journey known as motherhood.',
+  description: 'This Is My Momoir, a memoir (in blog form) of everything I have learned on this beautiful, exhausting, magical journey known as motherhood.',
+  ogDescription: 'This Is My Momoir, a memoir (in blog form) of everything I have learned on this beautiful, exhausting, magical journey known as motherhood.',
   ogImage: 'http://www.thisismymomoir.com/this-is-my-momoir-og.png',
   twitterCard: 'summary_large_image',
 })
