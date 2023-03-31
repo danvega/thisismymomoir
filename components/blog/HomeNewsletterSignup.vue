@@ -4,6 +4,7 @@ useHead({
     {
       src: 'https://f.convertkit.com/ckjs/ck.5.js',
       type: 'text/javascript',
+      defer: true
     },
   ],
 })
@@ -13,18 +14,18 @@ useHead({
   <!-- <section class="bg-slate-100 p-8">
     <article class="mx-auto max-w-6xl flex flex-col md:flex-row gap-4">
       <div class="flex-1">
-                <h2 class="text-3xl md:text-4xl mb-2 font-cormorant font-bold">Stay in touch with me</h2>
-                                          <p class="text-slate-900 mb-4">Sign up for my monthly newsletter and stay up to date with current blog posts.
-                                          </p>
-                                          <form action="" class="md:w-1/2">
-                                            <input type="email" name="email" id="email" placeholder="Enter your email address" class="w-full p-3 rounded">
-                                            <button class="bg-primary p-3 mt-4 rounded font-semibold hover:opacity-90 w-full"
-                                                        type="submit">Subscribe</button>
-                                                    </form>
-                                                  </div>
-                                                  <img src="/images/envelope.png" alt="envelope" class="h-36 hidden">
-                                                </article>
-                                              </section> -->
+                  <h2 class="text-3xl md:text-4xl mb-2 font-cormorant font-bold">Stay in touch with me</h2>
+                                            <p class="text-slate-900 mb-4">Sign up for my monthly newsletter and stay up to date with current blog posts.
+                                            </p>
+                                            <form action="" class="md:w-1/2">
+                                              <input type="email" name="email" id="email" placeholder="Enter your email address" class="w-full p-3 rounded">
+                                              <button class="bg-primary p-3 mt-4 rounded font-semibold hover:opacity-90 w-full"
+                                                          type="submit">Subscribe</button>
+                                                      </form>
+                                                    </div>
+                                                    <img src="/images/envelope.png" alt="envelope" class="h-36 hidden">
+                                                  </article>
+                                                </section> -->
 
 
   <section class="bg-slate-100 p-8">
@@ -43,18 +44,18 @@ useHead({
               <div class="formkit-field">
                 <input class="formkit-input" name="email_address" aria-label="Email Address" placeholder="Email Address"
                   required="" type="email" style="
-                                          color: rgb(0, 0, 0);
-                                          border-color: rgb(227, 227, 227);
-                                          border-radius: 4px;
-                                          font-weight: 400;
-                                        " />
+                                            color: rgb(0, 0, 0);
+                                            border-color: rgb(227, 227, 227);
+                                            border-radius: 4px;
+                                            font-weight: 400;
+                                          " />
               </div>
               <button data-element="submit" class="formkit-submit formkit-submit" style="
-                                        color: rgb(0, 0, 0);
-                                        background-color: rgb(224, 195, 198);
-                                        border-radius: 4px;
-                                        font-weight: 400;
-                                      ">
+                                          color: rgb(0, 0, 0);
+                                          background-color: rgb(224, 195, 198);
+                                          border-radius: 4px;
+                                          font-weight: 400;
+                                        ">
                 <div class="formkit-spinner">
                   <div></div>
                   <div></div>

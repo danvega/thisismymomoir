@@ -4,6 +4,7 @@ useHead({
     {
       src: 'https://f.convertkit.com/ckjs/ck.5.js',
       type: 'text/javascript',
+      defer: true
     },
   ],
 })
