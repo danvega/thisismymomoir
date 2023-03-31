@@ -7,19 +7,18 @@ const props = defineProps({
 
 const { data: blockList } = await useFetch<Block[]>(`/api/notion/blocks/${props.block.id}`);
 
-const blocks: Block[] = [];
+const blocks: Ref<Block[]> = ref([]);
+
 blockList.value?.forEach(async (block) => {
-  const content = await getBlockDetails(block.id);
-  console.log(content);
+  const content = await getBlockDetails(block.id);;
   if (content.length == 1) {
-    blocks.push(content[0]);
+    blocks.value.push(content[0]);
   }
 });
 
 async function getBlockDetails(id: string): Promise<Block[]> {
-  // const { data } = useFetch<Block[]>(`/api/notion/blocks/${id}`);
-  const data: Block[] = await $fetch(`/api/notion/blocks/${id}`);
-  return data || [];
+  const { data } = useFetch<Block[]>(`/api/notion/blocks/${id}`);
+  return data.value || [];
 }
 </script>
 
