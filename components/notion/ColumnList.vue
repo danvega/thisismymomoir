@@ -17,8 +17,9 @@ blockList.value?.forEach(async (block) => {
 });
 
 async function getBlockDetails(id: string): Promise<Block[]> {
-  const { data } = useFetch<Block[]>(`/api/notion/blocks/${id}`);
-  return data.value || [];
+  // const { data } = useFetch<Block[]>(`/api/notion/blocks/${id}`);
+  const data: Block[] = await $fetch(`/api/notion/blocks/${id}`);
+  return data || [];
 }
 </script>
 
