@@ -38,14 +38,12 @@ export default defineNuxtConfig({
   app: {
     head: {
       link: [{ rel: 'stylesheet', href: 'https://use.typekit.net/qbx5zks.css' }],
+      script: [{src: "https://cdn.usefathom.com/script.js" , "data-site": "TTXVBGKR", defer: true, body: true}],
       meta: [{
         name: 'keywords',
         content: 'This Is My Momoir, Momoir, Mom Blog, #MomLife, Health & Wellness, Recipes & Meal Planning, Celebrate!, Travel, Mom Bloggers, Mom Blogging'
       }]
     }
-  },
-  gtag: {
-    id: 'G-QHP11Y0FRR'
   },
   sitemap: {
     siteUrl: 'https://www.thisismymomoir.com'
