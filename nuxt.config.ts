@@ -23,7 +23,7 @@ export default defineNuxtConfig({
     },
   },
   routeRules: {
-    '/blog/**': { isr: true, },
+    '/blog/**': { isr: 10, },
     '/disclaimer': { static: true },
     '/privacy': { static: true },
     '/contact': { static: true },
