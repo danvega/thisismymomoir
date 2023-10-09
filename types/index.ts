@@ -2,7 +2,7 @@ export { };
 
 declare global {
 
-  interface Post {
+  type Post = {
     id: string;
     title: string;
     slug: string;
@@ -12,6 +12,17 @@ declare global {
     cover: string;
     excerpt: string;
   }
+
+  // interface Post {
+  //   id: string;
+  //   title: string;
+  //   slug: string;
+  //   author: string;
+  //   publishedOn: string;
+  //   content: Block[];
+  //   cover: string;
+  //   excerpt: string;
+  // }
 
   interface Category {
     slug: string;
