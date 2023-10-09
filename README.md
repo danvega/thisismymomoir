@@ -11,4 +11,5 @@ is a document of how to build a blog like this using Nuxt + Notion.
 - Nuxt 3
 - Notion API (version )
 - TypeScript
+- Tailwind CSS
 - Node v16+ w
