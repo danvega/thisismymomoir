@@ -1,4 +1,4 @@
-<script setup lang="ts" xmlns:id="http://www.w3.org/1999/xhtml">
+<script setup lang="ts">
 import {
   BulletedListItemBlockObjectResponse,
   TextRichTextItemResponse
