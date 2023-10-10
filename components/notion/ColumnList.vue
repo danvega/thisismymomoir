@@ -5,11 +5,7 @@ import {
   ColumnBlockObjectResponse,
   ColumnListBlockObjectResponse
 } from "@notionhq/client/build/src/api-endpoints";
-import Heading1 from "~/components/notion/Heading1.vue";
-import Heading2 from "~/components/notion/Heading2.vue";
-import Heading3 from "~/components/notion/Heading3.vue";
 import Paragraph from "~/components/notion/Paragraph.vue";
-import BulletedList from "~/components/notion/BulletedList.vue";
 import Video from "~/components/notion/Video.vue";
 
 const props = defineProps({
