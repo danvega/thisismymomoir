@@ -4,7 +4,7 @@ useServerSeoMeta({
   ogTitle: 'This Is My Momoir',
   description: 'This Is My Momoir, a memoir (in blog form) of everything I have learned on this beautiful, exhausting, magical journey known as motherhood.',
   ogDescription: 'This Is My Momoir, a memoir (in blog form) of everything I have learned on this beautiful, exhausting, magical journey known as motherhood.',
-  ogImage: 'http://www.thisismymomoir.com/this-is-my-momoir-og.png',
+  ogImage: 'https://www.thisismymomoir.com/images/this-is-my-momoir-og.png',
   twitterCard: 'summary_large_image',
 })
 </script>
@@ -18,57 +18,59 @@ useServerSeoMeta({
           you so much for being
           here! Aside from being a writer, I am the wife of a pretty awesome guy named Dan Vega and the mom of two
           adorable little girls, Isabella and Juliana. We are lifelong Clevelanders living in the suburb of Rocky River,
-          Ohio. I love reading and writing and have a Bachelor of Arts degree in English from Cleveland State University.
+          Ohio. I love reading and writing and have a Bachelor of Arts degree in English from Cleveland State
+          University.
           I also love to cook, bake, exercise, and travel among other hobbies. <a href="/blog/about"
-            class="text-blue-700 under hover:text-blue-600 hover:no-underline">Click here to learn more</a>.
+                                                                                  class="text-blue-700 under hover:text-blue-600 hover:no-underline">Click
+            here to learn more</a>.
         </p>
         <div class="pt-4 flex flex-row gap-8 justify-center">
           <a href="https://pinterest.com/thisismymomoir">
-            <Icon name="entypo-social:pinterest-with-circle" size="1.75rem" class="text-rose-600" />
+            <Icon name="entypo-social:pinterest-with-circle" size="1.75rem" class="text-rose-600"/>
           </a>
           <a href="https://www.facebook.com/thisismymomoir">
-            <Icon name="entypo-social:facebook" size="1.75rem" class="text-blue-500" />
+            <Icon name="entypo-social:facebook" size="1.75rem" class="text-blue-500"/>
           </a>
           <a href="https://www.instagram.com/thisismymomoir">
-            <Icon name="entypo-social:instagram" size="1.75rem" class="text-primary" />
+            <Icon name="entypo-social:instagram" size="1.75rem" class="text-primary"/>
           </a>
           <a href="https://www.twitter.com/thisismymomoir">
-            <Icon name="entypo-social:twitter" size="1.75rem" class="text-blue-500" />
+            <Icon name="entypo-social:twitter" size="1.75rem" class="text-blue-500"/>
           </a>
         </div>
       </article>
       <article class="lg:w-2/3 lg:ml-4 my-4">
         <NuxtLink to="/blog/welcome">
           <img src="/images/home/mom-girls-dress-up.png" alt="Welcome to This Is My Momoir"
-            sizes="(max-width: 640px) 100vw, (max-width: 768px) 50vw, 724px"
-            srcset="/images/home/mom-girls-dress-up-640.png 640w,
+               sizes="(max-width: 640px) 100vw, (max-width: 768px) 50vw, 724px"
+               srcset="/images/home/mom-girls-dress-up-640.png 640w,
                                                                                                                                 /images/home/mom-girls-dress-up-384.png 384w,
                                                                                                                                 /images/home/mom-girls-dress-up-724.png 724w"
-            class="lg:h-full w-full rounded shadow" />
+               class="lg:h-full w-full rounded shadow"/>
         </NuxtLink>
       </article>
     </section>
 
-    <BlogHomeNewsletterSignup />
+    <BlogHomeNewsletterSignup/>
 
     <section class="bg-white p-4">
       <article class="max-w-6xl mx-auto grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-4">
-        <BlogCategoryCard title="Welcome" link="welcome" img="welcome-386.jpg" />
-        <BlogCategoryCard title="#MomLife" link="category/momlife" img="momlife-386.jpg" />
-        <BlogCategoryCard title="Health & Wellness" link="category/health-wellness" img="health_wellness-386.jpg" />
+        <BlogCategoryCard title="Welcome" link="welcome" img="welcome-386.jpg"/>
+        <BlogCategoryCard title="#MomLife" link="category/momlife" img="momlife-386.jpg"/>
+        <BlogCategoryCard title="Health & Wellness" link="category/health-wellness" img="health_wellness-386.jpg"/>
         <BlogCategoryCard title="Recipes & Meal Planning" link="category/meal-planning-recipes"
-          img="recipes_meal_planning-386.jpg" />
-        <BlogCategoryCard title="Celebrate!" link="category/celebrate" img="celebrate-386.jpg" />
-        <BlogCategoryCard title="Travel" link="category/travel" img="travel-386.jpg" />
+                          img="recipes_meal_planning-386.jpg"/>
+        <BlogCategoryCard title="Celebrate!" link="category/celebrate" img="celebrate-386.jpg"/>
+        <BlogCategoryCard title="Travel" link="category/travel" img="travel-386.jpg"/>
       </article>
     </section>
 
     <section class="bg-white p-4">
-      <BlogLatestPostsByCategory categorySlug="momlife" />
-      <BlogLatestPostsByCategory categorySlug="health-wellness" />
-      <BlogLatestPostsByCategory categorySlug="meal-planning-recipes" />
-      <BlogLatestPostsByCategory categorySlug="celebrate" />
-      <BlogLatestPostsByCategory categorySlug="travel" />
+      <BlogLatestPostsByCategory categorySlug="momlife"/>
+      <BlogLatestPostsByCategory categorySlug="health-wellness"/>
+      <BlogLatestPostsByCategory categorySlug="meal-planning-recipes"/>
+      <BlogLatestPostsByCategory categorySlug="celebrate"/>
+      <BlogLatestPostsByCategory categorySlug="travel"/>
     </section>
 
   </main>
