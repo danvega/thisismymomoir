@@ -2,10 +2,14 @@ import {Client} from '@notionhq/client'
 import {QueryObject} from "ufo";
 import {EventHandlerRequest, H3Event} from "h3";
 import {PageObjectResponse, QueryDatabaseResponse} from "@notionhq/client/build/src/api-endpoints";
+import page from "nuxt/dist/pages/runtime/page";
 
 export default defineEventHandler(async (event: H3Event<EventHandlerRequest>) => {
     const query: QueryObject = getQuery(event)
-    const page_size: number = (<number>query.page_size) || 100;
+    const page_size: number = parseInt(<string>query.page_size) || 100;
+
+    console.log(query);
+    console.log(page_size)
 
     const category: string = decodeURI(event.context.params.category);
     const notion: Client = new Client({auth: process.env.NOTION_API_KEY});
