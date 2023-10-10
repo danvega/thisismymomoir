@@ -1,27 +1,27 @@
 <script setup lang="ts">
 import {
-  BulletedListItemBlockObjectResponse,
+  BulletedListItemBlockObjectResponse, RichTextItemResponse,
   TextRichTextItemResponse
 } from "@notionhq/client/build/src/api-endpoints";
 
 const props = defineProps({
-  block: { type: Object as PropType<BulletedListItemBlockObjectResponse> }
+  block: { type: Object as PropType<BulletedListItemBlockObjectResponse>, default: () => {} }
 });
 
 // There currently is no way to wrap each bullet list group with <ul>
 const listItem = ref('');
-props.block.bulleted_list_item.rich_text.forEach((item : TextRichTextItemResponse) => {
-
-  if(item.text.link != null) {
-    listItem.value += `<a href="${item.text.link.url}" class="text-blue-500 hover:text-blue-700">${item.text.content}</a>`;
+props.block.bulleted_list_item.rich_text.forEach((item : RichTextItemResponse) => {
+  const li :TextRichTextItemResponse = <TextRichTextItemResponse>item;
+  if(li.text.link != null) {
+    listItem.value += `<a href="${li.text.link.url}" class="text-blue-500 hover:text-blue-700">${li.text.content}</a>`;
   } else {
-    if(item.annotations.bold) {
-      listItem.value += `<strong>${item.plain_text}</strong>`;
+    if(li.annotations.bold) {
+      listItem.value += `<strong>${li.plain_text}</strong>`;
     } else {
-      listItem.value += item.plain_text;
+      listItem.value += li.plain_text;
     }
   }
-})
+});
 </script>
 
 <template>

@@ -7,18 +7,21 @@ import {
 } from "@notionhq/client/build/src/api-endpoints";
 
 const props = defineProps({
-  block: { type: Object as PropType<ColumnListBlockObjectResponse> }
+  block: { type: Object as PropType<ColumnListBlockObjectResponse>, default: () => {} }
 });
 
 // This currently only works to display 2 column content of images, update as needed.
 const { data: columns } = await useFetch<ColumnBlockObjectResponse[]>(`/api/notion/blocks/${props.block.id}`);
 const blocks: Ref<BlockObjectResponse[]> = ref([]);
-columns.value.forEach( async (column) => {
-  const content = await getColumnDetails(column.id);
-  if(content.length == 1) {
-    blocks.value.push(content[0]);
-  }
-});
+
+if(columns.value) {
+  columns.value.forEach( async (column) => {
+    const content = await getColumnDetails(column.id);
+    if(content.length == 1) {
+      blocks.value.push(content[0]);
+    }
+  });
+}
 
 async function getColumnDetails(id: string): Promise<BlockObjectResponse[]> {
   return await $fetch(`/api/notion/blocks/${id}`);
