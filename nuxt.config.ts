@@ -20,7 +20,7 @@ export default defineNuxtConfig({
     },
   },
   routeRules: {
-    // '/' : { swr: 1440, },
+    '/' : { swr: 1440, },
     '/blog/**': { swr: 600, },
     '/disclaimer': { static: true },
     '/privacy': { static: true },
@@ -35,7 +35,7 @@ export default defineNuxtConfig({
   app: {
     head: {
       link: [{ rel: 'stylesheet', href: 'https://use.typekit.net/qbx5zks.css' }],
-      script: [{src: "https://cdn.usefathom.com/script.js" , "data-site": "TTXVBGKR", defer: true}],
+      script: [{src: "https://cdn.usefathom.com/script.js" , "data-site": "TTXVBGKR", defer: true, tagPosition: 'bodyClose'}],
       meta: [{
         name: 'keywords',
         content: 'This Is My Momoir, Momoir, Mom Blog, #MomLife, Health & Wellness, Recipes & Meal Planning, Celebrate!, Travel, Mom Bloggers, Mom Blogging'
