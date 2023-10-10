@@ -1,12 +1,9 @@
 <script setup lang="ts">
 import {BulletedListItemBlockObjectResponse} from "@notionhq/client/build/src/api-endpoints";
-import {block} from "sharp";
 
 const props = defineProps({
   block: { type: Object as PropType<BulletedListItemBlockObjectResponse> }
 });
-
-console.log(props.block)
 
 // const listItem = ref('');
 // const text = props.block?.bulleted_list_item?.rich_text[0];
