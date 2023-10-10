@@ -2,7 +2,6 @@ import {Client} from '@notionhq/client'
 import {QueryObject} from "ufo";
 import {EventHandlerRequest, H3Event} from "h3";
 import {PageObjectResponse, QueryDatabaseResponse} from "@notionhq/client/build/src/api-endpoints";
-import page from "nuxt/dist/pages/runtime/page";
 
 export default defineEventHandler(async (event: H3Event<EventHandlerRequest>) => {
     const query: QueryObject = getQuery(event)
@@ -47,7 +46,6 @@ export default defineEventHandler(async (event: H3Event<EventHandlerRequest>) =>
         }
         posts.push(post);
     });
-
     return posts;
 
 });
