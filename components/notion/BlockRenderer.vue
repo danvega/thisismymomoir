@@ -7,10 +7,10 @@ import Paragraph from './Paragraph.vue';
 import BulletedList from './BulletedList.vue';
 import ColumnList from './ColumnList.vue';
 import Video from './Video.vue'
-import {BlockObjectResponse} from "@notionhq/client/build/src/api-endpoints";
+import {BlockObjectResponse, PartialBlockObjectResponse} from "@notionhq/client/build/src/api-endpoints";
 
 const props = defineProps({
-  block: { type: Object as PropType<BlockObjectResponse> },
+  block: { type: Object as PropType<BlockObjectResponse | PartialBlockObjectResponse> },
   slug: { type: String, default: '' }
 });
 
@@ -27,5 +27,5 @@ const currentBlock: Record<string, Component> = {
 </script>
 
 <template>
-  <component :is="currentBlock[block.type]" v-if="block" :block="block"/>
+  <component :is="currentBlock[block.type]" v-if="block instanceof BlockObjectResponse" :block="block"/>
 </template>
