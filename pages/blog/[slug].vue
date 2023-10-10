@@ -11,7 +11,7 @@ useServerSeoMeta({
   ogTitle: `${post.title}`,
   description: 'This Is My Momoir, a memoir (in blog form) of everything I have learned on this beautiful, exhausting, magical journey known as motherhood.',
   ogDescription: 'This Is My Momoir, a memoir (in blog form) of everything I have learned on this beautiful, exhausting, magical journey known as motherhood.',
-  ogImage: 'https://www.thisismymomoir.com/this-is-my-momoir-og.png',
+  ogImage: 'https://www.thisismymomoir.com/images/this-is-my-momoir-og.png',
   twitterCard: 'summary_large_image',
 })
 </script>
