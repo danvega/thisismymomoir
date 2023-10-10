@@ -7,10 +7,6 @@ import page from "nuxt/dist/pages/runtime/page";
 export default defineEventHandler(async (event: H3Event<EventHandlerRequest>) => {
     const query: QueryObject = getQuery(event)
     const page_size: number = parseInt(<string>query.page_size) || 100;
-
-    console.log(query);
-    console.log(page_size)
-
     const category: string = decodeURI(event.context.params.category);
     const notion: Client = new Client({auth: process.env.NOTION_API_KEY});
     const database: QueryDatabaseResponse = await notion.databases.query({
