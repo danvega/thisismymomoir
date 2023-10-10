@@ -1,13 +1,10 @@
-import GoogleFontsModule from '@nuxtjs/google-fonts'
-import { Meta } from './.nuxt/components'
-
 // https://nuxt.com/docs/api/configuration/nuxt-config
 export default defineNuxtConfig({
   modules: [
     '@nuxtjs/tailwindcss',
     '@nuxtjs/google-fonts',
     '@nuxt/image-edge',
-    'nuxt-icon',,
+    'nuxt-icon',
     'nuxt-simple-sitemap',
     'nuxt-simple-robots',
   ],
@@ -23,7 +20,7 @@ export default defineNuxtConfig({
     },
   },
   routeRules: {
-    '/' : { swr: 1440, },
+    // '/' : { swr: 1440, },
     '/blog/**': { swr: 600, },
     '/disclaimer': { static: true },
     '/privacy': { static: true },
@@ -38,7 +35,7 @@ export default defineNuxtConfig({
   app: {
     head: {
       link: [{ rel: 'stylesheet', href: 'https://use.typekit.net/qbx5zks.css' }],
-      script: [{src: "https://cdn.usefathom.com/script.js" , "data-site": "TTXVBGKR", defer: true, body: true}],
+      script: [{src: "https://cdn.usefathom.com/script.js" , "data-site": "TTXVBGKR", defer: true}],
       meta: [{
         name: 'keywords',
         content: 'This Is My Momoir, Momoir, Mom Blog, #MomLife, Health & Wellness, Recipes & Meal Planning, Celebrate!, Travel, Mom Bloggers, Mom Blogging'
