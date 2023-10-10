@@ -7,24 +7,25 @@ import Paragraph from './Paragraph.vue';
 import BulletedList from './BulletedList.vue';
 import ColumnList from './ColumnList.vue';
 import Video from './Video.vue'
+import {BlockObjectResponse} from "@notionhq/client/build/src/api-endpoints";
 
 const props = defineProps({
-  block: { type: Object as PropType<Block>, default: () => ({}) },
+  block: { type: Object as PropType<BlockObjectResponse> },
   slug: { type: String, default: '' }
 });
 
-const currentBlock: { [key: string]: Component } = {
-  heading_1: Heading1,
-  heading_2: Heading2,
-  heading_3: Heading3,
-  paragraph: Paragraph,
-  image: Image,
-  bulleted_list_item: BulletedList,
-  column_list: ColumnList,
-  video: Video
-};
+const currentBlock: Record<string, Component> = {
+  "heading_1": Heading1,
+  "heading_2": Heading2,
+  "heading_3": Heading3,
+  "paragraph": Paragraph,
+  "image": Image,
+  "bulleted_list_item": BulletedList, // not working
+  "column_list": ColumnList, // not working
+  "video": Video
+}
 </script>
 
 <template>
-  <component :is="currentBlock[block.type]" v-if="block" :block="block" />
+  <component :is="currentBlock[block.type]" v-if="block" :block="block"/>
 </template>

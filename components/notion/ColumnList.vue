@@ -1,34 +1,35 @@
 <script setup lang="ts">
 import Image from './Image.vue';
+import {ColumnListBlockObjectResponse} from "@notionhq/client/build/src/api-endpoints";
 
-const props = defineProps({
-  block: { type: Object as PropType<Block>, default: () => ({}) }
-});
-
-const { data: blockList } = await useFetch<Block[]>(`/api/notion/blocks/${props.block.id}`);
-
-const blocks: Ref<Block[]> = ref([]);
-
-blockList.value?.forEach(async (block) => {
-  const content = await getBlockDetails(block.id);;
-  if (content.length == 1) {
-    blocks.value.push(content[0]);
-  }
-});
-
-async function getBlockDetails(id: string): Promise<Block[]> {
-  // const { data } = useFetch<Block[]>(`/api/notion/blocks/${id}`);
-  const data: Block[] = await $fetch(`/api/notion/blocks/${id}`);
-  return data || [];
-}
+// const props = defineProps({
+//   block: { type: Object as PropType<ColumnListBlockObjectResponse> }
+// });
+//
+// const { data: blockList } = await useFetch<Block[]>(`/api/notion/blocks/${props.block.id}`);
+//
+// const blocks: Ref<Block[]> = ref([]);
+//
+// blockList.value?.forEach(async (block) => {
+//   const content = await getBlockDetails(block.id);;
+//   if (content.length == 1) {
+//     blocks.value.push(content[0]);
+//   }
+// });
+//
+// async function getBlockDetails(id: string): Promise<Block[]> {
+//   // const { data } = useFetch<Block[]>(`/api/notion/blocks/${id}`);
+//   const data: Block[] = await $fetch(`/api/notion/blocks/${id}`);
+//   return data || [];
+// }
 </script>
 
 <template>
-  <div class="grid grid-cols-2 gap-4">
-    <div v-for="block in blocks" :key="block.id">
-      <Image v-if="block.type === 'image'" :block="block" />
-    </div>
-  </div>
+<!--  <div class="grid grid-cols-2 gap-4">-->
+<!--    <div v-for="block in blocks" :key="block.id">-->
+<!--      <Image v-if="block.type === 'image'" :block="block" />-->
+<!--    </div>-->
+<!--  </div>-->
 </template>
 
 

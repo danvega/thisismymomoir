@@ -1,17 +1,17 @@
-<template>
-  <p :id="block.id" class="text-slate-900 text-left mb-4" v-html="paragraph">
-  </p>
-</template>
-
 <script setup lang="ts">
+import {
+  ParagraphBlockObjectResponse,
+  TextRichTextItemResponse
+} from "@notionhq/client/build/src/api-endpoints";
+
 const props = defineProps({
-  block: { type: Object as PropType<Block>, default: () => ({}) }
+  block: { type: Object as PropType<ParagraphBlockObjectResponse>}
 });
 
 const paragraph = ref('');
-props.block?.paragraph?.rich_text.forEach(p => {
+props.block.paragraph.rich_text.forEach((p : TextRichTextItemResponse) => {
 
-  if (p.text.link != null) {
+  if(p.text.link != null) {
     paragraph.value += `<a href="${p.text.link.url}" class="text-blue-500 hover:text-blue-700">${p.plain_text}</a>`;
   } else {
     if (p.annotations?.bold) {
@@ -20,5 +20,11 @@ props.block?.paragraph?.rich_text.forEach(p => {
       paragraph.value += p.plain_text;
     }
   }
+
 });
 </script>
+
+<template>
+  <p :id="block.id" class="text-slate-900 text-left mb-4" v-html="paragraph"></p>
+</template>
+

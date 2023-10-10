@@ -3,7 +3,6 @@ import { useDateFormat } from '@vueuse/core'
 import BlockRenderer from '~~/components/notion/BlockRenderer.vue';
 
 const slug = useRoute().params.slug;
-// const { data: post } = await useFetch<Post>(`/api/notion/page/${slug}`);
 const post: Post = await $fetch(`/api/notion/page/${slug}`);
 const publishedOnFormatted = useDateFormat(post?.publishedOn, 'MM/DD/YYYY', { locales: 'en-US' });
 
@@ -12,7 +11,7 @@ useServerSeoMeta({
   ogTitle: `${post.title}`,
   description: 'This Is My Momoir, a memoir (in blog form) of everything I have learned on this beautiful, exhausting, magical journey known as motherhood.',
   ogDescription: 'This Is My Momoir, a memoir (in blog form) of everything I have learned on this beautiful, exhausting, magical journey known as motherhood.',
-  ogImage: 'http://www.thisismymomoir.com/this-is-my-momoir-og.png',
+  ogImage: 'https://www.thisismymomoir.com/this-is-my-momoir-og.png',
   twitterCard: 'summary_large_image',
 })
 </script>
