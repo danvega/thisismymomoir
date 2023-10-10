@@ -3,22 +3,11 @@ export default defineNuxtConfig({
   modules: [
     '@nuxtjs/tailwindcss',
     '@nuxtjs/google-fonts',
-    '@nuxt/image-edge',
     'nuxt-icon',
     'nuxt-simple-sitemap',
     'nuxt-simple-robots',
   ],
   plugins: ['~/plugins/medium-zoom'],
-  image: {
-    domains: ['amazonaws.com'],
-    screens: {
-      xs: 320,
-      sm: 640,
-      md: 768,
-      lg: 1024,
-      xl: 1280
-    },
-  },
   routeRules: {
     '/' : { isr: 3600, }, // 3600 = 60 minutes
     '/blog/**': { isr: 3600, },
@@ -55,5 +44,6 @@ export default defineNuxtConfig({
               ? { preset: ['default', { discardComments: { removeAll: true } }] }
               : false, // disable cssnano when not in production
     },
-  }
+  },
+  devtools: { enabled: true }
 })
