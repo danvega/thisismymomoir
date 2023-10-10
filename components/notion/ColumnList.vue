@@ -1,10 +1,10 @@
 <script setup lang="ts">
-import Image from './Image.vue';
+// import Image from './Image.vue';
 import {ColumnListBlockObjectResponse} from "@notionhq/client/build/src/api-endpoints";
 
-// const props = defineProps({
-//   block: { type: Object as PropType<ColumnListBlockObjectResponse> }
-// });
+const props = defineProps({
+  block: { type: Object as PropType<ColumnListBlockObjectResponse> }
+});
 //
 // const { data: blockList } = await useFetch<Block[]>(`/api/notion/blocks/${props.block.id}`);
 //

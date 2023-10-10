@@ -27,5 +27,5 @@ const currentBlock: Record<string, Component> = {
 </script>
 
 <template>
-  <component :is="currentBlock[block.type]" v-if="block instanceof BlockObjectResponse" :block="block"/>
+  <component :is="currentBlock[props.block.type]" v-if="props.block" :block="props.block"/>
 </template>

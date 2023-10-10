@@ -9,6 +9,7 @@ const props = defineProps({
 const category: Category = categories.find((c) => c.slug === props.categorySlug);
 const { data: posts } = await useFetch<Post[]>(`/api/notion/posts/${encodeURI(category.notionCategory)}?page_size=${props.pageSize}`);
 
+// console.log(posts);
 </script>
 
 <template>
