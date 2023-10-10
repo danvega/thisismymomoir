@@ -7,11 +7,14 @@ const post: Post = await $fetch(`/api/notion/page/${slug}`);
 const publishedOnFormatted = useDateFormat(post?.publishedOn, 'MM/DD/YYYY', { locales: 'en-US' });
 
 useServerSeoMeta({
-  title: `${post.title}`,
-  ogTitle: `${post.title}`,
-  description: `${post.excerpt}`,
-  ogDescription: `${post.excerpt}`,
+  title: post.title,
+  description: post.excerpt,
+  ogTitle: post.title,
+  ogDescription: post.excerpt,
   ogImage: post.cover,
+  twitterTitle: post.title,
+  twitterDescription: post.excerpt,
+  twitterImage: post.cover,
   twitterCard: 'summary_large_image',
 })
 </script>

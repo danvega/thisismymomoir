@@ -1,10 +1,13 @@
 <script setup lang="ts">
 useServerSeoMeta({
-  title: 'This Is My Momoir - Home',
-  ogTitle: 'This Is My Momoir',
+  title: 'This Is My Momoir 🏠',
   description: 'This Is My Momoir, a memoir (in blog form) of everything I have learned on this beautiful, exhausting, magical journey known as motherhood.',
+  ogTitle: 'This Is My Momoir 🏠',
   ogDescription: 'This Is My Momoir, a memoir (in blog form) of everything I have learned on this beautiful, exhausting, magical journey known as motherhood.',
   ogImage: 'https://www.thisismymomoir.com/images/this-is-my-momoir-og.png',
+  twitterTitle: "This Is My Momoir 🏠",
+  twitterDescription: "This Is My Momoir, a memoir (in blog form) of everything I have learned on this beautiful, exhausting, magical journey known as motherhood.",
+  twitterImage: 'https://www.thisismymomoir.com/images/this-is-my-momoir-og.png',
   twitterCard: 'summary_large_image',
 })
 </script>
