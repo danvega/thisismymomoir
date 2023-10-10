@@ -20,8 +20,8 @@ export default defineNuxtConfig({
     },
   },
   routeRules: {
-    '/' : { swr: 3600, }, // 3600 = 60 minutes
-    '/blog/**': { swr: 3600, },
+    '/' : { isr: 3600, }, // 3600 = 60 minutes
+    '/blog/**': { isr: 3600, },
     '/disclaimer': { static: true },
     '/privacy': { static: true },
     '/contact': { static: true },
