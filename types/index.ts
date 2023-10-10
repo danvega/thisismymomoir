@@ -1,6 +1,5 @@
 import {
   BlockObjectResponse,
-  PageObjectResponse,
   PartialBlockObjectResponse
 } from "@notionhq/client/build/src/api-endpoints";
 
