@@ -5,6 +5,12 @@ import {
   ColumnBlockObjectResponse,
   ColumnListBlockObjectResponse
 } from "@notionhq/client/build/src/api-endpoints";
+import Heading1 from "~/components/notion/Heading1.vue";
+import Heading2 from "~/components/notion/Heading2.vue";
+import Heading3 from "~/components/notion/Heading3.vue";
+import Paragraph from "~/components/notion/Paragraph.vue";
+import BulletedList from "~/components/notion/BulletedList.vue";
+import Video from "~/components/notion/Video.vue";
 
 const props = defineProps({
   block: { type: Object as PropType<ColumnListBlockObjectResponse>, default: () => {} }
@@ -26,12 +32,20 @@ if(columns.value) {
 async function getColumnDetails(id: string): Promise<BlockObjectResponse[]> {
   return await $fetch(`/api/notion/blocks/${id}`);
 }
+
+// what I'm currently supporting in columns
+const currentBlock: Record<string, Component> = {
+  "paragraph": Paragraph,
+  "image": Image,
+  "video": Video
+}
 </script>
 
 <template>
   <section class="grid grid-cols-2 gap-4">
     <div v-for="block in blocks" :key="block.id">
-      <Image v-if="block.type === 'image'" :block="block" />
+<!--      <Image v-if="block.type === 'image'" :block="block" />-->
+      <component :is="currentBlock[block.type]" v-if="block" :block="block"/>
     </div>
   </section>
 </template>
