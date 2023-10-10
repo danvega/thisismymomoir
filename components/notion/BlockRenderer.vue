@@ -7,6 +7,7 @@ import Paragraph from './Paragraph.vue';
 import BulletedList from './BulletedList.vue';
 import ColumnList from './ColumnList.vue';
 import Video from './Video.vue'
+import BlockQuote from "~/components/notion/BlockQuote.vue";
 import {BlockObjectResponse, PartialBlockObjectResponse} from "@notionhq/client/build/src/api-endpoints";
 
 const props = defineProps({
@@ -22,7 +23,8 @@ const currentBlock: Record<string, Component> = {
   "image": Image,
   "bulleted_list_item": BulletedList, // not working
   "column_list": ColumnList, // not working
-  "video": Video
+  "video": Video,
+  "quote": BlockQuote
 }
 </script>
 
