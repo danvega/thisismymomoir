@@ -2,7 +2,7 @@
 import {ImageBlockObjectResponse} from "@notionhq/client/build/src/api-endpoints";
 
 const props = defineProps({
-  block: {type: Object as PropType<ImageBlockObjectResponse>},
+  block: {type: Object as PropType<ImageBlockObjectResponse>, required: true},
   slug: {type: String, default: ''}
 });
 

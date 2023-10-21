@@ -3,7 +3,7 @@ import YouTubeEmbed from '../blog/YouTubeEmbed.vue';
 import {VideoBlockObjectResponse} from "@notionhq/client/build/src/api-endpoints";
 
 const props = defineProps({
-  block: { type: Object as PropType<VideoBlockObjectResponse> }
+  block: { type: Object as PropType<VideoBlockObjectResponse>, required: true }
 });
 
 const isExternal = ref(false);

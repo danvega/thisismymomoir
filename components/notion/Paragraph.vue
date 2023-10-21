@@ -1,6 +1,7 @@
 <script setup lang="ts">
 import {
-  ParagraphBlockObjectResponse,
+  PageObjectResponse,
+  ParagraphBlockObjectResponse, RichTextItemResponse,
   TextRichTextItemResponse
 } from "@notionhq/client/build/src/api-endpoints";
 
@@ -8,23 +9,31 @@ const props = defineProps({
   block: { type: Object as PropType<ParagraphBlockObjectResponse>}
 });
 
+// export type RichTextItemResponse =
+// TextRichTextItemResponse | MentionRichTextItemResponse | EquationRichTextItemResponse;
+
 const paragraph = ref('');
-props.block.paragraph.rich_text.forEach((p : TextRichTextItemResponse) => {
-
-  if(p.text.link != null) {
-    paragraph.value += `<a href="${p.text.link.url}" class="text-blue-500 hover:text-blue-700">${p.plain_text}</a>`;
-  } else {
-    if (p.annotations?.bold) {
-      paragraph.value += `<strong>${p.plain_text}</strong>`;
-    } else {
-      paragraph.value += p.plain_text;
-    }
-  }
-
+props?.block?.paragraph.rich_text
+    .filter(isTextRichTextItemResponse)
+    .forEach((p) => {
+      if(p.text.link != null) {
+        paragraph.value += `<a href="${p.text.link.url}" class="text-blue-500 hover:text-blue-700">${p.plain_text}</a>`;
+      } else {
+        if (p.annotations?.bold) {
+          paragraph.value += `<strong>${p.plain_text}</strong>`;
+        } else {
+          paragraph.value += p.plain_text;
+        }
+      }
 });
+
+function isTextRichTextItemResponse(response: any): response is TextRichTextItemResponse {
+  return !!response.text;
+}
+
 </script>
 
 <template>
-  <p :id="block.id" class="text-slate-900 text-left mb-4" v-html="paragraph"></p>
+  <p :id="block?.id" class="text-slate-900 text-left mb-4" v-html="paragraph"></p>
 </template>
 

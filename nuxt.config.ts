@@ -11,9 +11,9 @@ export default defineNuxtConfig({
   routeRules: {
     '/' : { isr: 3600, }, // 3600 = 60 minutes
     '/blog/**': { isr: 3600, },
-    '/disclaimer': { static: true },
-    '/privacy': { static: true },
-    '/contact': { static: true },
+    '/disclaimer': { prerender: true },
+    '/privacy': { prerender: true },
+    '/contact': { prerender: true },
   },
   googleFonts: {
     families: {
