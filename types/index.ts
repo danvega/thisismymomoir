@@ -1,6 +1,6 @@
 import {
-  BlockObjectResponse,
-  PartialBlockObjectResponse
+  BlockObjectResponse, PageObjectResponse,
+  PartialBlockObjectResponse, RichTextItemResponse
 } from "@notionhq/client/build/src/api-endpoints";
 
 export { };
