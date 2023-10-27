@@ -9,9 +9,6 @@ const props = defineProps({
   block: { type: Object as PropType<ParagraphBlockObjectResponse>}
 });
 
-// export type RichTextItemResponse =
-// TextRichTextItemResponse | MentionRichTextItemResponse | EquationRichTextItemResponse;
-
 const paragraph = ref('');
 props?.block?.paragraph.rich_text
     .filter(isTextRichTextItemResponse)
