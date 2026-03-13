@@ -1,13 +1,19 @@
 // https://nuxt.com/docs/api/configuration/nuxt-config
 export default defineNuxtConfig({
+  future: {
+    compatibilityVersion: 4
+  },
+  compatibilityDate: '2025-01-01',
+  alias: {
+    '@data': '../data',
+  },
   modules: [
     '@nuxtjs/tailwindcss',
     '@nuxtjs/google-fonts',
-    'nuxt-icon',
-    'nuxt-simple-sitemap',
-    'nuxt-simple-robots',
+    '@nuxt/icon',
+    '@nuxtjs/sitemap',
+    '@nuxtjs/robots',
   ],
-  plugins: ['~/plugins/medium-zoom'],
   routeRules: {
     '/' : { isr: 3600, }, // 3600 = 60 minutes
     '/blog/**': { isr: 3600, },
@@ -45,5 +51,4 @@ export default defineNuxtConfig({
               : false, // disable cssnano when not in production
     },
   },
-  devtools: { enabled: true }
 })

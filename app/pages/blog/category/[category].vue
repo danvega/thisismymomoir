@@ -1,5 +1,5 @@
 <script setup lang="ts">
-import categories from '@/data/categories.json';
+import categories from '@data/categories.json';
 
 const categorySlug = useRoute().params.category;
 const category: Category = categories.find((c) => c.slug === categorySlug)!;

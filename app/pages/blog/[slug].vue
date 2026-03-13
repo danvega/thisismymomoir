@@ -1,7 +1,5 @@
 <script setup lang="ts">
 import { useDateFormat } from '@vueuse/core'
-import BlockRenderer from '~~/components/notion/BlockRenderer.vue';
-
 const slug = useRoute().params.slug;
 const post: Post = await $fetch(`/api/notion/page/${slug}`);
 const publishedOnFormatted = useDateFormat(post?.publishedOn, 'MM/DD/YYYY', { locales: 'en-US' });
@@ -35,7 +33,7 @@ useServerSeoMeta({
   </section>
   <main class="bg-white">
     <section class="mx-4 md:mx-auto max-w-3xl selection:bg-primary">
-      <BlockRenderer v-for="block in post?.content" :key="block.id" :block="block" />
+      <NotionBlockRenderer v-for="block in post?.content" :key="block.id" :block="block" />
     </section>
   </main>
 </template>

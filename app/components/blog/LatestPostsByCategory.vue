@@ -1,5 +1,5 @@
 <script setup lang="ts">
-import categories from '@/data/categories.json';
+import categories from '@data/categories.json';
 
 const props = defineProps({
   categorySlug: { type: String, default: '' },
