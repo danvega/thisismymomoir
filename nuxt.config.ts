@@ -21,6 +21,7 @@ export default defineNuxtConfig({
     '/disclaimer': { prerender: true },
     '/privacy': { prerender: true },
     '/contact': { prerender: true },
+    '/feed.xml': { prerender: true },
   },
   googleFonts: {
     families: {
@@ -31,7 +32,10 @@ export default defineNuxtConfig({
   app: {
     head: {
       htmlAttrs: { lang: 'en' },
-      link: [{ rel: 'stylesheet', href: 'https://use.typekit.net/qbx5zks.css' }],
+      link: [
+        { rel: 'stylesheet', href: 'https://use.typekit.net/qbx5zks.css' },
+        { rel: 'alternate', type: 'application/rss+xml', title: 'This Is My Momoir', href: '/feed.xml' }
+      ],
       script: [{src: "https://cdn.usefathom.com/script.js" , "data-site": "TTXVBGKR", defer: true, tagPosition: 'bodyClose'}],
       meta: [{
         name: 'keywords',
