@@ -15,6 +15,8 @@ const { data: posts } = await useAsyncData(`category-${categorySlug}`, () =>
     .all()
 );
 
+useCanonical()
+
 useServerSeoMeta({
   title: `This Is My Momoir - ${category.name}`,
   ogTitle: `This Is My Momoir - ${category.name}`,
@@ -30,6 +32,13 @@ useServerSeoMeta({
 
 <template>
   <main class="bg-primary">
+
+    <div class="mx-4 lg:mx-auto max-w-6xl pt-4">
+      <AppBreadcrumb :items="[
+        { label: 'Home', to: '/' },
+        { label: category.name },
+      ]" />
+    </div>
 
     <BlogCategoryHeader :category="category" />
 

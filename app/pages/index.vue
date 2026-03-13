@@ -1,4 +1,6 @@
 <script setup lang="ts">
+useCanonical()
+
 useServerSeoMeta({
   title: 'This Is My Momoir 🏠',
   description: 'This Is My Momoir, a memoir (in blog form) of everything I have learned on this beautiful, exhausting, magical journey known as motherhood.',

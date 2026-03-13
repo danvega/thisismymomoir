@@ -1,4 +1,6 @@
 <script setup lang="ts">
+useCanonical()
+
 useServerSeoMeta({
   title: 'This Is My Momoir - Contact',
   description: 'This Is My Momoir, a memoir (in blog form) of everything I have learned on this beautiful, exhausting, magical journey known as motherhood.',
@@ -15,6 +17,10 @@ useServerSeoMeta({
 <template>
   <main class="bg-white scroll-smooth">
     <section class="bg-primary p-4 lg:mx-auto lg:max-w-6xl">
+      <AppBreadcrumb :items="[
+        { label: 'Home', to: '/' },
+        { label: 'Contact' },
+      ]" />
       <h2 class="text-4xl font-bold leading-tight text-gray-900">Contact</h2>
     </section>
     <section class="mx-auto max-w-6xl mb-4 flex flex-col lg:flex-row divide-x-2 mt-4">

@@ -1,5 +1,6 @@
 <script setup lang="ts">
 import { useDateFormat } from '@vueuse/core'
+import categories from '@data/categories.json'
 
 const slug = useRoute().params.slug as string
 const { data: post } = await useAsyncData(`blog-${slug}`, () =>
@@ -11,6 +12,37 @@ if (!post.value) {
 }
 
 const publishedOnFormatted = useDateFormat(post.value?.publishedOn, 'MM/DD/YYYY', { locales: 'en-US' })
+const postCategory = categories.find((c) => c.slug === post.value?.category)
+
+useCanonical()
+
+useHead({
+  script: [
+    {
+      type: 'application/ld+json',
+      innerHTML: JSON.stringify({
+        '@context': 'https://schema.org',
+        '@type': 'Article',
+        headline: post.value.title,
+        description: post.value.excerpt,
+        image: post.value.cover,
+        datePublished: post.value.publishedOn,
+        author: {
+          '@type': 'Person',
+          name: post.value.author,
+        },
+        publisher: {
+          '@type': 'Organization',
+          name: 'This Is My Momoir',
+          logo: {
+            '@type': 'ImageObject',
+            url: 'https://www.thisismymomoir.com/images/this-is-my-momoir-og.png',
+          },
+        },
+      }),
+    },
+  ],
+})
 
 useServerSeoMeta({
   title: post.value.title,
@@ -28,9 +60,11 @@ useServerSeoMeta({
 <template>
   <section class="bg-gradient-to-b from-primary/60 to-white pt-12 pb-8">
     <div class="mx-4 md:mx-auto max-w-3xl">
-      <NuxtLink to="/" class="inline-flex items-center gap-1 text-sm text-slate-600 hover:text-slate-900 transition-colors mb-4">
-        <span aria-hidden="true">&larr;</span> Back to home
-      </NuxtLink>
+      <AppBreadcrumb :items="[
+        { label: 'Home', to: '/' },
+        ...(postCategory ? [{ label: postCategory.name, to: `/blog/category/${postCategory.slug}` }] : []),
+        { label: post?.title ?? '' },
+      ]" />
       <h1 class="text-4xl font-cormorant font-bold leading-tight text-gray-900 mb-3">{{ post?.title }}</h1>
       <div class="flex flex-col md:flex-row gap-2 md:gap-4 text-slate-600">
         <p class="text-sm flex items-center gap-1">
