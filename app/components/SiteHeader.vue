@@ -34,15 +34,15 @@ onMounted(() => {
           </div>
         </button>
         <nav class="hidden space-x-8 text-xl md:block md:text-base md:space-x-4" aria-label="main">
-          <NuxtLink to="/blog/category/momlife" class="text-lg p-2 rounded hover:bg-primary hover:opacity-90">#MomLife
+          <NuxtLink to="/blog/category/momlife" class="text-lg px-3 py-2 rounded-lg transition-all duration-200 hover:bg-primary/50 hover:text-slate-900" active-class="bg-primary/30 font-medium">#MomLife
           </NuxtLink>
-          <NuxtLink to="/blog/category/health-wellness" class="text-lg p-2 rounded hover:bg-primary hover:opacity-90">
+          <NuxtLink to="/blog/category/health-wellness" class="text-lg px-3 py-2 rounded-lg transition-all duration-200 hover:bg-primary/50 hover:text-slate-900" active-class="bg-primary/30 font-medium">
             Health & Wellness</NuxtLink>
           <NuxtLink to="/blog/category/meal-planning-recipes"
-            class="text-lg p-2 rounded hover:bg-primary hover:opacity-90">Recipes & Meal Planning</NuxtLink>
-          <NuxtLink to="/blog/category/celebrate" class="text-lg p-2 rounded hover:bg-primary hover:opacity-90">Celebrate!
+            class="text-lg px-3 py-2 rounded-lg transition-all duration-200 hover:bg-primary/50 hover:text-slate-900" active-class="bg-primary/30 font-medium">Recipes & Meal Planning</NuxtLink>
+          <NuxtLink to="/blog/category/celebrate" class="text-lg px-3 py-2 rounded-lg transition-all duration-200 hover:bg-primary/50 hover:text-slate-900" active-class="bg-primary/30 font-medium">Celebrate!
           </NuxtLink>
-          <NuxtLink to="/blog/category/travel" class="text-lg p-2 rounded hover:bg-primary hover:opacity-90">Travel
+          <NuxtLink to="/blog/category/travel" class="text-lg px-3 py-2 rounded-lg transition-all duration-200 hover:bg-primary/50 hover:text-slate-900" active-class="bg-primary/30 font-medium">Travel
           </NuxtLink>
         </nav>
       </div>
@@ -50,15 +50,15 @@ onMounted(() => {
     <section id="mobile-menu"
       class="top-68 justify-content-center absolute hidden w-full origin-top animate-open-menu flex-col bg-primary text-3xl">
       <nav class="flex min-h-screen flex-col items-center py-8 text-slate-900" aria-label="mobile">
-        <NuxtLink to="/" class="w-full py-6 text-center hover:opacity-90">Home</NuxtLink>
-        <NuxtLink to="/blog/category/momlife" class="w-full py-6 text-center hover:opacity-90">#MomLife</NuxtLink>
-        <NuxtLink to="/blog/category/health-wellness" class="w-full py-6 text-center hover:opacity-90">Health & Wellness
+        <NuxtLink to="/" class="w-full py-6 text-center transition-colors duration-200 hover:bg-primary-200/20">Home</NuxtLink>
+        <NuxtLink to="/blog/category/momlife" class="w-full py-6 text-center transition-colors duration-200 hover:bg-primary-200/20">#MomLife</NuxtLink>
+        <NuxtLink to="/blog/category/health-wellness" class="w-full py-6 text-center transition-colors duration-200 hover:bg-primary-200/20">Health & Wellness
         </NuxtLink>
-        <NuxtLink to="/blog/category/meal-planning-recipes" class="w-full py-6 text-center hover:opacity-90">Recipes &
+        <NuxtLink to="/blog/category/meal-planning-recipes" class="w-full py-6 text-center transition-colors duration-200 hover:bg-primary-200/20">Recipes &
           Meal Planning</NuxtLink>
-        <NuxtLink to="/blog/category/celebrate" class="w-full py-6 text-center hover:opacity-90">Celebrate!</NuxtLink>
-        <NuxtLink to="/blog/category/travel" class="w-full py-6 text-center hover:opacity-90">Travel</NuxtLink>
-        <NuxtLink to="/blog/about" class="w-full py-6 text-center hover:opacity-90">About Me</NuxtLink>
+        <NuxtLink to="/blog/category/celebrate" class="w-full py-6 text-center transition-colors duration-200 hover:bg-primary-200/20">Celebrate!</NuxtLink>
+        <NuxtLink to="/blog/category/travel" class="w-full py-6 text-center transition-colors duration-200 hover:bg-primary-200/20">Travel</NuxtLink>
+        <NuxtLink to="/blog/about" class="w-full py-6 text-center transition-colors duration-200 hover:bg-primary-200/20">About Me</NuxtLink>
       </nav>
     </section>
   </header>
