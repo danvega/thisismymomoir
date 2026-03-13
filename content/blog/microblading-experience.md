@@ -1,0 +1,47 @@
+---
+title: "My Experience with Microblading"
+slug: "microblading-experience"
+author: "Jen Vega"
+publishedOn: "2023-02-09"
+category: "health-wellness"
+cover: "/images/blog/microblading-experience/cover.jpg"
+excerpt: "Microblading is something that I considered doing for probably 3 YEARS before finally going through with it, and it turned out to be one of the best things I’ve"
+---
+
+![](/images/blog/microblading-experience/img-1.jpg)
+
+Microblading is something that I considered doing for probably 3 YEARS before finally going through with it, and it turned out to be one of the best things I’ve ever done for myself!  I was so apprehensive about it because it takes a LOT of faith in a stranger to let them tattoo your face, but if you can find a good reputable technician in your area, it is such a great investment.  The countless hours I have saved doing eyebrow pencil in the morning makes it worth it, but just having more confidence in myself without makeup is the best part (going to the gym without makeup was something I would never have done before this treatment).
+
+In junior high, I vividly remember taking my mom's tweezers and just going to town on my poor eyebrows.  I remember going to gym class the next day and my friends being very concerned about what happened to my face!  I was probably in sixth grade at the time.  After that fateful day, I was always obsessed with getting them “even” instead of letting them grow, and over time they just got smaller and smaller.  After I had my first child, I think I was in some kind of postpartum anxiety state when I made them the smallest they had ever been.  I was obsessed with making them the same size and shape on each side until there was barely any hair left.  
+
+I remember calling my mom just sobbing that I had tweezed off all of my eyebrows.  God bless my sweet husband, who came home from work early and swore to me I was still beautiful.  I was so unbelievably embarrassed.  I remember even being embarrassed playing with my baby hoping she wouldn’t be scared of me, it was that bad!  I knew I needed to do something to stop this cycle of over-tweezing my eyebrows.  I started researching places to go for microblading, and in the meantime invested in eyebrow serums to help them grow and did not leave my house without eyebrow pencil on.
+
+I think ***doing your research*** is the absolute most important step in getting microblading done.  This is not the time to look for a deal.  I actually suggest finding someone who is in demand and booked out for months, even if you’re dying to get in (like I was!).  Instagram is a great place to look.  Most artists have a lot of their work with before and after photos to see real client results.  I started with Google, but you have to be careful with that because people can pay to have their names come up.  I remember I went to a consultation appointment at a place Yelp claimed was the “best” and this woman literally told me I could draw my own eyebrows with pencil and she would tattoo them on me.  I knew right away I was in the danger zone!
+
+I found the perfect place for me by finding photos of work that I loved on Instagram, which also had tons of rave reviews in multiple places (Google/Facebook).  I actually followed the person I ended up going to on Instagram for so long that she moved to an entirely new location by the time I finally made it in to see her.  I was so terrified of getting a permanent tattoo on my face, but I just kept coming back to the decision that this is what I wanted to do.  If this is something you’re considering, I say go with your gut and don’t listen to anyone who may be against it.  As someone who has done it, I can tell you it’s honestly not that scary if you’re in the right hands.  If you’re in the Cleveland area, I went to ***Victoria at ***[Confidence Medspa](https://confidencemedspa.com/service/permanent-cosmetics-microblading-cleveland/)*** ***and was so happy with my results.
+
+![](/images/blog/microblading-experience/img-2.jpg)
+
+Once you find the place to go, your first appointment should be a ***consultation.***  At your consultation, you can show pictures of what you are looking for, and they will measure your face and draw on what they will eventually tattoo.  It is so important to make sure you absolutely love what they have drawn because if you are like me, you will go home and criticize it for hours/days/weeks after it is tattooed on.  One tip I have is to sit up and really look at them for a while, and even take a selfie and look at the picture on your phone.  I get lightheaded easily, so when I would sit up in a bright room to look in the mirror it was hard for me to get a good visual right away.  Take your time and make sure it is perfect because the next step is a permanent tattoo.
+
+The actual procedure is pretty painless.  You sit with numbing cream on for a while before they start (I think mine was for 30-45 minutes).  ***Pro-tip:*** Go to your appointment with freshly washed hair!  You are going to want to take as many days off as possible from washing your hair after the procedure.  ***These were the instructions I was given before the treatment:***
+
+*No tweezing or waxing one week before the procedure.  No tanning/sunburns.  No chemical facials/peels 2 weeks prior.  Do not work out within 5 hours of the procedure.  No botox 2 weeks before or after.  No tinting your brows 3 days before and 2 weeks after.  Avoid retinol and AHA’s for 2 weeks prior and after. (ALWAYS avoid the brow area by 1/2 inch after the procedure to prolong the life of the tattoo).  Do not drink alcohol 48hrs prior to the appointment.  Do not consume caffeine within 5 hours of the appointment.  Do not take Asprin or Ibuprofen 48 hours prior. Tylenol is ok for pain relief.*
+
+Once I was numb, the tattoo took about an hour.  There are different techniques that you can choose from.  ***Microblading*** is the traditional technique where they use a scalpel and make tiny hairstroke slits in your skin that the ink is deposited into.  I actually did a combination of microblading and a ***powder brow***.  The powder brow is a fill-in of tiny dots to give a more penciled-in look.  Here is a photo of the ***combo brows*** filled in when I was finished.  I was so happy with the result.  The brows do get much darker in the following days before fading to their permanent color, but nothing too crazy where you can’t go to work or the store.  I actually didn’t even mind mine when they got darker.  They also start to scab over around 6-7 days, this is totally normal.  Just do NOT peel them.
+
+![](/images/blog/microblading-experience/img-3.jpg)
+
+The worst part about getting microblading is the aftercare.  You cannot get your eyebrows wet for 10 days after the procedure.  This is not an easy task.  This means no exercise/sweating for at least a week which drove me crazy.  They gave me a shower visor to keep my brows dry when washing my hair.  I suggest super quick showers (no steam) and try to wash your hair only 1-2 times in the 10 days, definitely not in the first 3 days. I would wash my face in the sink avoiding the brow area and would wash off the cleanser with a washcloth.  These were the ***post-care instructions ***I was given:
+
+***Day 0 ***- *With a very light touch, use your fingertips to gently wash every couple hours before
+bed to remove bacteria, build-up of product, oils, dead skin & blood. Use water and a mild soap like Cetaphil.  Rub the area in a smooth motion for 5 seconds and rinse with water ensuring that all soap is rinsed away. (Don't worry, THIS DOES NOT REMOVE THE PIGMENT!) Apply a very thin layer of Aquaphor with your clean fingertip to the area after each wash.*
+***Days 1-4*** - *Moisturize/ No Water. Apply a rice grain amount of aftercare ointment (Aquaphor) with a clean fingertip and spread it across the treated area 2-3x per day, as needed for moisture.
+Be sure not to over-apply, as this will suffocate your skin and delay healing. The ointment should be barely noticeable on the skin. *NEVER put the ointment on a wet or damp tattoo.*
+***Days 5-10*** *(can) Add Water. Continue with the aftercare ointment as needed for moisture. You can get the brows wet at this point. No washing, steaming, or rubbing the brows. No direct pressure from the shower water on the brows. Make sure the area is completely air-dried for at least 15 minutes before applying the aftercare ointment.*
+
+After your brows are healed, you will return for a ***touch-up session 6-8 weeks later***.  This is where they will make any adjustments that you would like and also perfect the color.  I actually ended up adding ***nanobrows*** at my touch-up, which is a different tattoo method that is better for oily skin and lasts a little bit longer.  I was really happy with my results.  I am due to go back for a touchup now that my brows are starting to fade (I got them a little over a year ago, and haven’t been as careful as I should be with avoiding aggressive skincare around the area), so I will post an update on that once I do!  I cannot emphasize enough how much the procedure has improved my confidence.  I am going to be brave and post a before photo of what my over-tweezed brows looked like so you can see that I’m not being dramatic when I say I NEEDED this ;).  If you’re on the fence about microblading, consider this your sign to make your appointment!  You will not regret it :)
+
+Before/After
+
+![](/images/blog/microblading-experience/img-4.jpg)

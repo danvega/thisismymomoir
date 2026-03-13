@@ -13,10 +13,11 @@ export default defineNuxtConfig({
     '@nuxt/icon',
     '@nuxtjs/sitemap',
     '@nuxtjs/robots',
+    '@nuxt/content',
   ],
   routeRules: {
-    '/' : { isr: 3600, }, // 3600 = 60 minutes
-    '/blog/**': { isr: 3600, },
+    '/': { prerender: true },
+    '/blog/**': { prerender: true },
     '/disclaimer': { prerender: true },
     '/privacy': { prerender: true },
     '/contact': { prerender: true },

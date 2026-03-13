@@ -1,18 +1,26 @@
 <script setup lang="ts">
 import { useDateFormat } from '@vueuse/core'
-const slug = useRoute().params.slug;
-const post: Post = await $fetch(`/api/notion/page/${slug}`);
-const publishedOnFormatted = useDateFormat(post?.publishedOn, 'MM/DD/YYYY', { locales: 'en-US' });
+
+const slug = useRoute().params.slug as string
+const { data: post } = await useAsyncData(`blog-${slug}`, () =>
+  queryCollection('blog').where('slug', '=', slug).first()
+)
+
+if (!post.value) {
+  throw createError({ statusCode: 404, statusMessage: `Post Not Found: ${slug}` })
+}
+
+const publishedOnFormatted = useDateFormat(post.value?.publishedOn, 'MM/DD/YYYY', { locales: 'en-US' })
 
 useServerSeoMeta({
-  title: post.title,
-  description: post.excerpt,
-  ogTitle: post.title,
-  ogDescription: post.excerpt,
-  ogImage: post.cover,
-  twitterTitle: post.title,
-  twitterDescription: post.excerpt,
-  twitterImage: post.cover,
+  title: post.value.title,
+  description: post.value.excerpt,
+  ogTitle: post.value.title,
+  ogDescription: post.value.excerpt,
+  ogImage: post.value.cover,
+  twitterTitle: post.value.title,
+  twitterDescription: post.value.excerpt,
+  twitterImage: post.value.cover,
   twitterCard: 'summary_large_image',
 })
 </script>
@@ -33,7 +41,7 @@ useServerSeoMeta({
   </section>
   <main class="bg-white">
     <section class="mx-4 md:mx-auto max-w-3xl selection:bg-primary">
-      <NotionBlockRenderer v-for="block in post?.content" :key="block.id" :block="block" />
+      <ContentRenderer v-if="post" :value="post" />
     </section>
   </main>
 </template>

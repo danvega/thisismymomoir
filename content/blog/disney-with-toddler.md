@@ -1,0 +1,51 @@
+---
+title: "Quick Disney Trip with a Toddler"
+slug: "disney-with-toddler"
+author: "Jen Vega"
+publishedOn: "2023-03-06"
+category: "travel"
+cover: "/images/blog/disney-with-toddler/cover.jpg"
+excerpt: "When our daughter was just shy of turning one, we decided to take our first family Disney trip.  A lot of people will say that it is pointless to take a small c"
+---
+
+![](/images/blog/disney-with-toddler/img-1.jpg)
+
+When our daughter was just shy of turning one, we decided to take our first family Disney trip.  A lot of people will say that it is pointless to take a small child to Disney, which is fair because they obviously won’t remember it.  I must say, I felt that it was truly magical to see her little smiles and excitement at this age and it was a memory that I will never forget.  I honestly cried happy tears multiple times.  In my opinion, this is a really fun age to take them for a little glimpse of the magic (plus their ticket is free!).  Since we only planned on being in Orlando for 3 days total, we actually combined Disney with a trip to the beach.  I think this is a great combination when traveling with young kids because they get to experience a little bit of the ocean and beach and then spend a magical day at a Disney park.  Both can be very tiring for kids (and adults!) so this seems to be a good amount of time for each location.  We have done this twice with our kids now.  Once in Clearwater/St. Pete Beach area and once in Atlantic Beach. 
+
+Since our daughter was so young and we were also traveling with a larger group (my mother-in-law, sister-in-law, and two nieces and nephew) we decided to stay off-property.  We stayed at [The Grove Resort & Water Park](https://www.groveresortorlando.com/?locale=en) which I must say is SUCH a hidden gem.  Resorts on Disney property are obviously super convenient and have their own special kind of magic, but they can also be extremely expensive.  This resort was absolutely beautiful (much more upscale than a Disney property, at a third of the cost).  We rented a [beautiful condo ](https://www.vrbo.com/1493361?_branch_match_id=1140301173926406056&_branch_referrer=H4sIAAAAAAAAA8soKSkottLXL9ErK0rK18vM1w83NArKLrTIiqhIAgAbqVYgHQAAAA%3D%3D&adultsCount=1&childAgeString=%7B%7D&oc=gBYlFzIQwtlikQ4x8K9ak&utm_campaign=earned%3Avrbo%3Ashare%3AXXX%3AUS%3Aios&utm_content=1493361&utm_medium=social&utm_source=direct)through VRBO with 3 bedrooms, 2 bathrooms, a full kitchen, a living room area, and a screened-in balcony for $250 per night!  Finding such a large, beautiful space at such a low cost that could comfortably accommodate 4 adults and 4 kids was truly astonishing.  For comparison, the average Disney resort is at least $400 per night, and we would have needed two rooms, which would have cost around $800 per night.  We also would not have had a kitchen, eliminating the option to do our own food shopping and cooking, which would have escalated the cost even more.
+
+I was honestly a little bit worried that this place would turn out to be too good to be true, but we absolutely loved it!  The only two downsides I will mention are 1) the resort is HUGE and you can easily get a little lost, but there are signs and helpful employees to help you find your way.  And 2) the resort may be inexpensive to stay at, but they definitely find ways to make their money back, meaning the extras here are on the pricey (AKA Disney World level priced) side.  If you just want to stay here and take their free shuttle to Disney and take advantage of the kitchen by bringing your own groceries, this place is a total steal.  However, if you’re like me and want to take advantage of the restaurants and extra services, it’s going to cost you.
+
+![](/images/blog/disney-with-toddler/img-2.jpg)
+
+The resort’s main highlight is the awesome [waterpark](https://www.groveresortorlando.com/surfari/?gclid=CjwKCAiA3pugBhAwEiwAWFzwdW3vyVBv9QxIC9qrdVdO1wSROYfuCtIHgugFi7QmYDaNiCDy_95HvRoC2sQQAvD_BwE), which is FREE with your stay!  There are 2 large waterslides, a lazy river, and a wonderful kid’s area with three more waterslides and tons of water spouts and splash attractions for hours of endless fun.  There are also beautiful cabanas available for rent which is very convenient when vacationing with kids.  This would be one of those extra costs, which is $225 per day.  If you decide to stay at this resort, I definitely suggest dedicating at least one full day to just hanging out at the water park and even checking out their [full-service spa](https://www.groveresortorlando.com/i/downloads/Escape_Menu.pdf)!  They also have a kid's activity center, arcade, fitness center, and even a pier with fishing poles available to rent as well as kayaks and paddleboats.  There is so much fun to be had at this amazing resort, it is a full vacation on its own.  
+
+The [food](https://www.groveresortorlando.com/resort_dining/) here is also really great, although a little pricey.  Valencia is the main indoor restaurant with an awesome breakfast menu including Belgian waffles and create-your-own omelet options.  They also have an all-day menu with seafood and steak entrees as well as more casual burgers and taco options.  There is a kid’s menu with all of the “must-have” kid’s choices including mac and cheese, chicken tenders, and cheeseburgers.  It’s always important to me to have a “home-base” type of restaurant at our hotel when traveling with kids, and this one checks all of the boxes.  Another great option is [Longboards](https://www.groveresortorlando.com/i/downloads/Longboard_Menu.pdf) which is conveniently located next to the water park.  This is the perfect option for having a quick lunch or dinner in your swimsuit.  They have a great menu full of fun frozen cocktails and perfect pool foods like nachos and tacos or burgers/wraps.  They have a kid’s menu as well.  [The Springs Bar & Grill](https://www.groveresortorlando.com/i/downloads/Springs_Bar.pdf) is yet another outdoor restaurant with food coming straight from the Valencia kitchen.  [Al Fresco Market ](https://www.groveresortorlando.com/i/downloads/Alfresco.pdf)was probably my favorite food option at the resort due to the convenience factor.  We would grab a delicious breakfast sandwich, some fruit, milk, and donuts for the kids and eat while we would wait for the free shuttle to Disney Ticket & Transportation Center.  This is also available in the evening to get home and was such a convenient (and free!) service.  This resort definitely has everything you could need or want and was an awesome find for our Disney trip.
+
+
+
+::column-list
+
+:::column
+
+![](/images/blog/disney-with-toddler/img-3.jpg)
+
+:::
+
+:::column
+
+![](/images/blog/disney-with-toddler/img-4.jpg)
+
+:::
+
+::
+
+
+
+For this trip, we only had one Disney park planned- Magic Kingdom, which is absolutely perfect for a small child.  We went to Disney Springs for our first night, which is a great way to kick off your Disney vacation.  You get a little taste of the magic that is in store for you without having to pay for a park ticket.  It has become our tradition to go to [The Rainforest Cafe ](https://www.disneysprings.com/dining/rainforest-cafe-at-disney-springs-marketplace/)for dinner (make reservations in advance!) and then go to the [World of Disney ](https://disneyworld.disney.go.com/shops/disney-springs/world-of-disney/)for ears and t-shirts.  This is obviously not the most economical decision, you can purchase[ ears ](https://amzn.to/3ITHwg7)(these look almost identical to ones I bought at Disney for a much higher cost) and [shirts ](https://amzn.to/3SVbUeB)(I actually did buy this one and a matching [“Dad”](https://amzn.to/3ZB3ivU) one for my husband and we absolutely loved them, great quality!) on Amazon for a much better price, but I am what my grandpa used to call “a marketer’s dream” ;)  We actually do just buy a few things at Disney as souvenirs and the rest on Amazon because it is so much cheaper.  
+
+There were MANY more Amazon purchases before this quick trip, including a [stroller fan](https://amzn.to/41NcqPU) and [cooling towels](https://amzn.to/3INqArq), which are two things you absolutely cannot go to Disney in the summer without.  They made the almost 100-degree weather somewhat tolerable.  [Misting fans](https://amzn.to/3ISkDK1) were another must from Amazon since they sell them at the parks at a much higher cost.  We also got our daughter an extremely lightweight and loose-fitting [outfit](https://amzn.to/3JggaSG) so she would not overheat and obviously, we drank tons and tons of water all day long (*so important!!). We also took lots of breaks inside air-conditioned rides, restaurants, and shops as often as possible (and ate ice cream to cool down of course!) Disney truly thinks of everything and also has these amazing air-conditioned [Baby Care Centers ](https://disneyworld.disney.go.com/guest-services/baby-care-centers/)where you can nurse your baby and change diapers, and they even have a little shop inside that sells diapers, baby food, and any other baby care items you may need.  It really makes visiting with a small child so much less overwhelming to know you have a place that you can go for any of your baby's needs.
+
+Taking our one-year-old to Magic Kingdom for a quick Disney trip was totally worth every penny in my opinion.  We were able to save a little bit of money by staying off-Disney property and using their free shuttle service.  Also, a perk of taking a child under two is of course that they receive a free park ticket!  We just did this again as a [family of four ](https://www.thisismymomoir.com/blog/disney-toddler-preschooler)right before our youngest daughter turned two.  I would say their favorite rides at this age were the animatronic ones like It’s a Small World, Winnie the Pooh, and Peter Pan’s Flight.  They absolutely love the songs and wave to all of the characters, it is too cute for words!  Just seeing their amazement would bring tears to my eyes.  It is a really special experience to see Disney through your child’s eyes, no matter what age they are.  Of course, seeing my oldest this past summer at four years old in her Disney princess prime was even more fun than when she was one, but I'll take all of the Disney magic I can get :)  
+
+![](/images/blog/disney-with-toddler/img-5.jpg)

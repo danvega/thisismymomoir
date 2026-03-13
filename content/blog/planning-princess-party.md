@@ -1,0 +1,29 @@
+---
+title: "Planning a Picture Perfect Princess Party"
+slug: "planning-princess-party"
+author: "Jen Vega"
+publishedOn: "2023-05-23"
+category: "celebrate"
+cover: "/images/blog/planning-princess-party/cover.jpeg"
+excerpt: "When my daughter informed me that she wanted to have a Disney princess party for her 5th birthday, I was intrigued.  When she went on to explain that she would "
+---
+
+When my daughter informed me that she wanted to have a Disney princess party for her 5th birthday, I was intrigued.  When she went on to explain that she would like all of her friends to dress up in princess costumes and that she would also like a princess castle bouncy house, I was impressed!  My little party planner had a vision, and I was going to bring that vision to life.  We discussed the details a little further, and she informed me that she would also like a cake with Disney princesses on it (obviously) and Disney princess decorations.  I agreed that this sounded like a good plan, and just like that, I was hired!  
+
+Once we had a date planned, I found cute text invites on Etsy for like $3 (my client had a limited budget) and sent them to our family and the parents of her nearest and dearest friends.  I made sure to communicate to the other moms that costumes were expected by this little diva, but that we would also have some available to borrow.  She has a super cute [dress rack](https://amzn.to/3opXKY6) from Amazon that we hung all of her extra costumes on at the party.  This made for a less obnoxious request and also a cute decoration.  Once we had the invites texted out, we discussed the menu.  My client has a very sophisticated palate and prefers fine foods such as pizza and pasta, so we ordered catering from our local pizza place (shout out to [Pelicano’s](https://www.pelicanospizza.com/catering) in Rocky River!).  We served salad, pizza, penne pasta with meatballs, and wings.  We also had a charcuterie board, chips and dip, and a fruit tray for extra food since it was a larger party (and because kids love fruit and cheese).  For beverages, we provided a bucket of sodas, water bottles, and juice boxes, as well as wine and beer for adults.  
+
+![](/images/blog/planning-princess-party/img-1.jpeg)
+
+Our next step was the princess cake of her princess dreams, which was made possible by a real-life pastry fairy Godmother, our friend Brittany, who owns the most amazing bakery, [Sugar Me Desserterie](https://www.sugarmedesserterie.com/), in Chagrin Falls.  The cake was absolutely adorable and also delicious, making it a hit for both the kids and the parents.  We used [princess figurines](https://amzn.to/3MrYfsN) for the cake which my client also got to keep as toys which made her very happy with me.  We also served little ice cream cups which I think is always a nice treat for the kids (ok, and the parents).  I was also able to find a princess bouncy castle that she approved of, although she was not pleased to learn this was rented and not purchased (I believe I was in real danger of being fired around this time).  Thankfully, I distracted her with the purchase of a Disney princess [pinata](https://amzn.to/45E7xL4) and lots of candy to fill it with, so we were swiftly back on track.  I also found the absolute cutest party favors on Amazon, which were cute little [princess bags](https://amzn.to/3omKOT0) with a tiara, magic wand, and ring for each princess guest.  That was a huge hit!
+
+![](/images/blog/planning-princess-party/img-2.jpeg)
+
+For decorations, I found all of her wish list items on Amazon.  We went with a princess [banner](https://amzn.to/433FDWU), hanging 3-D princess [decorations](https://amzn.to/3WwxDeK), and a [balloon bouquet](https://amzn.to/3oqgUNs) which we paired with a [5 balloon](https://amzn.to/3IBrf00).  I considered a balloon garland, but my business partner/husband threatened to quit if I gave him that task, so we had to compromise on the balloons.  We ordered [princess tablecloths](https://amzn.to/41XASwU) and princess [plates and napkins](https://amzn.to/3ol7bbr) and I also added an extra [banner](https://amzn.to/3ovFAnK) and a cute [table skirt](https://amzn.to/3ICjvLi) for the food table to tie everything together.  Thankfully, I have another daughter/potential future client who will be turning 3 this summer and I feel confident she may also hire me for her festivities, so stay tuned!
+
+Hosting a picture perfect princess themed party is not as complicated or overwhelming as it may seem.  Once you set a date, send your invites, and plan your menu, you are halfway there.  You can get a cute princess-themed cake from your local bakery (or I have even done cakes or cupcakes from the supermarket and just put the figurines on those, kids do not care, especially if you put them on a cute [cupcake tower](https://amzn.to/3oqBoWq)!).  Decorations are so fun to purchase and really highlight the theme of the party.  I have linked everything we used on this post to make things easy!  
+
+![](/images/blog/planning-princess-party/img-3.jpeg)
+
+As for preparation, I like to set everything up long before the food arrives so if anything takes longer than I expect I don’t go crazy.  (For example, the hanging 3-D princesses took a while to poof up, I did those, hung the banners, and laid out the tablecloths to unwrinkle the night before.). The day of the party is reserved for last minute decorations, making appetizers, setting up drinks, making sure the house/outside are clean and ready to go, and that myself and my husband and kids are presentable.  One thing I failed to do this year was take a family photo before the party started.  My girls had already fully been jumping in the bouncy castle and their hair was crazy in the picture.  But everyone had a magical time, and that is what matters.  I feel optimistic about being booked for future events, so be sure to subscribe for more party planning tips and tricks!
+
+

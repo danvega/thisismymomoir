@@ -1,19 +1,13 @@
-import {
-  BlockObjectResponse, PageObjectResponse,
-  PartialBlockObjectResponse, RichTextItemResponse
-} from "@notionhq/client/build/src/api-endpoints";
-
 export { };
 
 declare global {
 
   type Post = {
-    id: string;
     title: string;
     slug: string;
     author?: string;
     publishedOn?: string;
-    content?: Array<PartialBlockObjectResponse | BlockObjectResponse>
+    category?: string;
     cover?: string;
     excerpt?: string;
   }
@@ -21,7 +15,6 @@ declare global {
   type Category = {
     slug: string;
     name: string;
-    notionCategory: string;
     cover: string;
     featuredPost: string;
   }
