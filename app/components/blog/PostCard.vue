@@ -9,23 +9,19 @@ const publishedOnFormatted = useDateFormat(props.post.publishedOn, 'MM/DD/YYYY',
 </script>
 
 <template>
-  <NuxtLink :to="`/blog/${post.slug}`">
-    <!-- <NuxtImg :src="post.cover" class="w-full h-48 object-cover rounded-md" sizes="sm:100vw md:50vw lg:400px" /> -->
-    <img :src="post.cover" class="w-full h-48 object-cover rounded-md" />
-  </NuxtLink>
-  <div class="p-6">
-    <h2 class="text-xl font-bold mb-2">{{ post.title }}</h2>
+  <NuxtLink :to="`/blog/${post.slug}`" class="block">
+    <img :src="post.cover" class="w-full aspect-video object-cover" />
+    <div class="p-6">
+      <h2 class="text-xl font-bold mb-2 font-cormorant group-hover:text-primary-200 transition-colors">{{ post.title }}</h2>
 
-    <div class="flex items-center	">
-      <p class="text-xs flex-1	">
-        <Icon name="ic:baseline-calendar-month" size="16px" class="" /> Published on {{ publishedOnFormatted }}
-      </p>
-      <NuxtLink :to="`/blog/${post.slug}`"
-        class="inline-flex items-center p-2 text-sm font-medium text-center text-slate-900 bg-primary rounded-md hover:opacity-90 ">
-        Read more
-      </NuxtLink>
+      <div class="flex items-center justify-between">
+        <p class="text-xs text-slate-500">
+          <Icon name="ic:baseline-calendar-month" size="16px" /> {{ publishedOnFormatted }}
+        </p>
+        <span class="text-sm text-slate-500 group-hover:text-primary-200 transition-all group-hover:translate-x-1 inline-flex items-center gap-1">
+          Read more <span aria-hidden="true">&rarr;</span>
+        </span>
+      </div>
     </div>
-
-
-  </div>
+  </NuxtLink>
 </template>
