@@ -51,16 +51,16 @@ const currentYear = new Date().getFullYear();
       </nav>
       <div class="flex justify-center gap-5 mb-3">
         <a href="https://pinterest.com/thisismymomoir" class="text-slate-600 transition-all duration-200 hover:text-slate-900 hover:scale-110">
-          <Icon name="entypo-social:pinterest-with-circle" size="1.5rem" />
+          <Icon name="simple-icons:pinterest" size="1.5rem" />
         </a>
         <a href="https://www.facebook.com/thisismymomoir" class="text-slate-600 transition-all duration-200 hover:text-slate-900 hover:scale-110">
-          <Icon name="entypo-social:facebook" size="1.5rem" />
+          <Icon name="simple-icons:facebook" size="1.5rem" />
         </a>
         <a href="https://www.instagram.com/thisismymomoir" class="text-slate-600 transition-all duration-200 hover:text-slate-900 hover:scale-110">
-          <Icon name="entypo-social:instagram" size="1.5rem" />
+          <Icon name="simple-icons:instagram" size="1.5rem" />
         </a>
-        <a href="https://www.twitter.com/thisismymomoir" class="text-slate-600 transition-all duration-200 hover:text-slate-900 hover:scale-110">
-          <Icon name="entypo-social:twitter" size="1.5rem" />
+        <a href="https://x.com/thisismymomoir" class="text-slate-600 transition-all duration-200 hover:text-slate-900 hover:scale-110">
+          <Icon name="simple-icons:x" size="1.5rem" />
         </a>
       </div>
       <p class="text-center text-sm text-slate-500">Copyright &copy; {{ currentYear }} This Is My Momoir. All Rights Reserved.</p>

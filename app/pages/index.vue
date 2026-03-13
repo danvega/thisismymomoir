@@ -29,16 +29,16 @@ useServerSeoMeta({
         </p>
         <div class="pt-4 flex flex-row gap-8 justify-center">
           <a href="https://pinterest.com/thisismymomoir">
-            <Icon name="entypo-social:pinterest-with-circle" size="1.75rem" class="text-rose-600"/>
+            <Icon name="simple-icons:pinterest" size="1.75rem" class="text-rose-600"/>
           </a>
           <a href="https://www.facebook.com/thisismymomoir">
-            <Icon name="entypo-social:facebook" size="1.75rem" class="text-blue-500"/>
+            <Icon name="simple-icons:facebook" size="1.75rem" class="text-blue-500"/>
           </a>
           <a href="https://www.instagram.com/thisismymomoir">
-            <Icon name="entypo-social:instagram" size="1.75rem" class="text-primary"/>
+            <Icon name="simple-icons:instagram" size="1.75rem" class="text-primary"/>
           </a>
-          <a href="https://www.twitter.com/thisismymomoir">
-            <Icon name="entypo-social:twitter" size="1.75rem" class="text-blue-500"/>
+          <a href="https://x.com/thisismymomoir">
+            <Icon name="simple-icons:x" size="1.75rem" class="text-slate-900"/>
           </a>
         </div>
       </article>

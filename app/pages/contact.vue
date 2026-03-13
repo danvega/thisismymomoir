@@ -56,16 +56,16 @@ useServerSeoMeta({
           or connect with me on your favorite platform. Here are the links to my social networks:</p>
         <div class="flex flex-col mt-4">
           <a href="https://www.instagram.com/thisismymomoir" class="py-4">
-            <Icon name="entypo-social:instagram" size="1.5rem" class="text-slate-900" /> Instagram
+            <Icon name="simple-icons:instagram" size="1.5rem" class="text-slate-900" /> Instagram
           </a>
           <a href="https://www.facebook.com/thisismymomoir" class="py-4">
-            <Icon name="entypo-social:facebook" size="1.5rem" class="text-slate-900" /> Facebook
+            <Icon name="simple-icons:facebook" size="1.5rem" class="text-slate-900" /> Facebook
           </a>
           <a href="https://pinterest.com/thisismymomoir" class="py-4">
-            <Icon name="entypo-social:pinterest-with-circle" size="1.5rem" class="text-slate-900" /> Pinterest
+            <Icon name="simple-icons:pinterest" size="1.5rem" class="text-slate-900" /> Pinterest
           </a>
-          <a href="https://www.twitter.com/thisismymomoir" class="py-4">
-            <Icon name="entypo-social:twitter" size="1.5rem" class="text-slate-900" /> Twitter
+          <a href="https://x.com/thisismymomoir" class="py-4">
+            <Icon name="simple-icons:x" size="1.5rem" class="text-slate-900" /> X
           </a>
         </div>
       </div>
