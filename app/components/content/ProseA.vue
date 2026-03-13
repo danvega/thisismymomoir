@@ -3,7 +3,7 @@ defineProps<{ href?: string }>()
 </script>
 
 <template>
-  <a :href="href" class="text-blue-500 hover:text-blue-700">
+  <a :href="href" class="text-primary-200 hover:text-primary-200/70 underline underline-offset-2">
     <slot />
   </a>
 </template>
