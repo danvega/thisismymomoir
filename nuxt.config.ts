@@ -30,6 +30,7 @@ export default defineNuxtConfig({
   },
   app: {
     head: {
+      htmlAttrs: { lang: 'en' },
       link: [{ rel: 'stylesheet', href: 'https://use.typekit.net/qbx5zks.css' }],
       script: [{src: "https://cdn.usefathom.com/script.js" , "data-site": "TTXVBGKR", defer: true, tagPosition: 'bodyClose'}],
       meta: [{
