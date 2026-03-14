@@ -14,6 +14,16 @@ if (!post.value) {
 const publishedOnFormatted = useDateFormat(post.value?.publishedOn, 'MM/DD/YYYY', { locales: 'en-US' })
 const postCategory = categories.find((c) => c.slug === post.value?.category)
 
+function extractText(node: any): string {
+  if (typeof node === 'string') return node
+  if (Array.isArray(node)) return node.map(extractText).join(' ')
+  if (node?.value) return Array.isArray(node.value) ? node.value.map(extractText).join(' ') : String(node.value)
+  return ''
+}
+const bodyText = extractText(post.value?.body) || ''
+const wordCount = bodyText.split(/\s+/).filter(Boolean).length
+const readingTime = Math.max(1, Math.round(wordCount / 230))
+
 useCanonical()
 
 useHead({
@@ -74,6 +84,10 @@ useServerSeoMeta({
         <p class="text-sm flex items-center gap-1">
           <Icon name="ic:baseline-calendar-month" size="16px" /> {{ publishedOnFormatted }}
         </p>
+        <span class="hidden md:inline text-slate-300">|</span>
+        <p class="text-sm flex items-center gap-1">
+          <Icon name="material-symbols:timer-outline" size="16px" /> {{ readingTime }} min read
+        </p>
       </div>
     </div>
   </section>
@@ -82,5 +96,6 @@ useServerSeoMeta({
       <ContentRenderer v-if="post" :value="post" />
     </section>
   </main>
+  <BlogRelatedPosts v-if="post?.category" :category="post.category" :current-slug="slug" />
   <BlogNewsletterSignup variant="modal" />
 </template>
