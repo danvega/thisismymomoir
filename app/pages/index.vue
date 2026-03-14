@@ -51,7 +51,7 @@ useServerSeoMeta({
                srcset="/images/home/mom-girls-dress-up-640.png 640w,
                                                                                                                                 /images/home/mom-girls-dress-up-384.png 384w,
                                                                                                                                 /images/home/mom-girls-dress-up-724.png 724w"
-               class="lg:h-full w-full rounded shadow"/>
+               style="aspect-ratio: 16/9" class="lg:h-full w-full object-cover rounded shadow"/>
         </NuxtLink>
       </article>
     </section>
