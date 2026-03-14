@@ -54,10 +54,14 @@ export default defineNuxtConfig({
         { rel: 'alternate', type: 'application/rss+xml', title: 'This Is My Momoir', href: '/feed.xml' }
       ],
       script: [{src: "https://cdn.usefathom.com/script.js" , "data-site": "TTXVBGKR", defer: true, tagPosition: 'bodyClose'}],
-      meta: [{
-        name: 'keywords',
-        content: 'This Is My Momoir, Momoir, Mom Blog, #MomLife, Health & Wellness, Recipes & Meal Planning, Celebrate!, Travel, Mom Bloggers, Mom Blogging'
-      }]
+      meta: [
+        { name: 'keywords', content: 'This Is My Momoir, Momoir, Mom Blog, #MomLife, Health & Wellness, Recipes & Meal Planning, Celebrate!, Travel, Mom Bloggers, Mom Blogging' },
+        { property: 'og:type', content: 'website' },
+        { property: 'og:site_name', content: 'This Is My Momoir' },
+        { property: 'og:image', content: `${SITE_URL}/images/this-is-my-momoir-og.png` },
+        { name: 'twitter:card', content: 'summary_large_image' },
+        { name: 'twitter:image', content: `${SITE_URL}/images/this-is-my-momoir-og.png` },
+      ]
     }
   },
   sitemap: {

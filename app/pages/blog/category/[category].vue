@@ -22,10 +22,10 @@ useServerSeoMeta({
   ogTitle: `This Is My Momoir - ${category.name}`,
   description: 'This Is My Momoir, a memoir (in blog form) of everything I have learned on this beautiful, exhausting, magical journey known as motherhood.',
   ogDescription: 'This Is My Momoir, a memoir (in blog form) of everything I have learned on this beautiful, exhausting, magical journey known as motherhood.',
-  ogImage: category.cover,
+  ogImage: `https://www.thisismymomoir.com/images/category/${category.cover}`,
   twitterTitle: `This Is My Momoir - ${category.name}`,
   twitterDescription: "This Is My Momoir, a memoir (in blog form) of everything I have learned on this beautiful, exhausting, magical journey known as motherhood.",
-  twitterImage: category.cover,
+  twitterImage: `https://www.thisismymomoir.com/images/category/${category.cover}`,
   twitterCard: 'summary_large_image',
 })
 </script>

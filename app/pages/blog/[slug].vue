@@ -35,7 +35,7 @@ useHead({
         '@type': 'Article',
         headline: post.value.title,
         description: post.value.excerpt,
-        image: post.value.cover,
+        image: post.value.cover ? `https://www.thisismymomoir.com${post.value.cover}` : 'https://www.thisismymomoir.com/images/this-is-my-momoir-og.png',
         datePublished: post.value.publishedOn,
         author: {
           '@type': 'Person',
@@ -54,15 +54,17 @@ useHead({
   ],
 })
 
+const ogImageUrl = post.value.cover ? `https://www.thisismymomoir.com${post.value.cover}` : 'https://www.thisismymomoir.com/images/this-is-my-momoir-og.png'
+
 useServerSeoMeta({
   title: post.value.title,
   description: post.value.excerpt,
   ogTitle: post.value.title,
   ogDescription: post.value.excerpt,
-  ogImage: post.value.cover,
+  ogImage: ogImageUrl,
   twitterTitle: post.value.title,
   twitterDescription: post.value.excerpt,
-  twitterImage: post.value.cover,
+  twitterImage: ogImageUrl,
   twitterCard: 'summary_large_image',
 })
 </script>

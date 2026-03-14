@@ -9,6 +9,9 @@ useServerSeoMeta({
   description: 'Search blog posts on This Is My Momoir.',
   ogDescription: 'Search blog posts on This Is My Momoir.',
   ogImage: 'https://www.thisismymomoir.com/images/this-is-my-momoir-og.png',
+  twitterTitle: 'This Is My Momoir - Search',
+  twitterDescription: 'Search blog posts on This Is My Momoir.',
+  twitterImage: 'https://www.thisismymomoir.com/images/this-is-my-momoir-og.png',
   twitterCard: 'summary_large_image',
 })
 
