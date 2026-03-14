@@ -37,6 +37,7 @@ export default defineNuxtConfig({
     '/disclaimer': { prerender: true },
     '/privacy': { prerender: true },
     '/contact': { prerender: true },
+    '/blog/search': { prerender: true },
     '/feed.xml': { prerender: true },
   },
   googleFonts: {
