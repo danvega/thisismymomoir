@@ -58,9 +58,6 @@ const currentYear = new Date().getFullYear();
         <a :href="social.instagram" class="text-slate-600 transition-all duration-200 hover:text-slate-900 hover:scale-110">
           <Icon name="simple-icons:instagram" size="1.5rem" />
         </a>
-        <a :href="social.twitter" class="text-slate-600 transition-all duration-200 hover:text-slate-900 hover:scale-110">
-          <Icon name="simple-icons:x" size="1.5rem" />
-        </a>
       </div>
       <p class="text-center text-sm text-slate-500">Copyright &copy; {{ currentYear }} This Is My Momoir. All Rights Reserved.</p>
     </section>

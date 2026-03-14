@@ -39,9 +39,6 @@ useServerSeoMeta({
           <a href="https://www.instagram.com/thisismymomoir">
             <Icon name="simple-icons:instagram" size="1.75rem" class="text-primary"/>
           </a>
-          <a href="https://x.com/thisismymomoir">
-            <Icon name="simple-icons:x" size="1.75rem" class="text-slate-900"/>
-          </a>
         </div>
       </article>
       <article class="lg:w-2/3 lg:ml-4 my-4">

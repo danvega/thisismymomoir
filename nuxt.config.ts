@@ -18,7 +18,6 @@ export default defineNuxtConfig({
         instagram: 'https://www.instagram.com/thisismymomoir',
         facebook: 'https://www.facebook.com/thisismymomoir',
         pinterest: 'https://pinterest.com/thisismymomoir',
-        twitter: 'https://x.com/thisismymomoir',
       },
     },
   },

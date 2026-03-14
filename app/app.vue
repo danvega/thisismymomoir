@@ -29,7 +29,6 @@ useHead({
           social.instagram,
           social.facebook,
           social.pinterest,
-          social.twitter,
         ],
       }),
     },
