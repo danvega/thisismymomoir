@@ -12,7 +12,7 @@ export default {
       colors: {
         primary: {
           DEFAULT: '#E0C3C6',
-          200: 'd799a0'
+          200: '#d799a0'
         }
       },
       fontFamily: {
