@@ -5,7 +5,7 @@
     <p class="text-slate-900">You are either looking for a page that doesn't exist or something went terribly wrong. We
       have notified
       our engineers and are looking into the problem.</p>
-    <img src="/images/undraw_fixing_bugs_w7gi.png" class="" />
+    <img src="/images/undraw_fixing_bugs_w7gi.png" alt="Illustration of a person fixing bugs" />
   </section>
   <SiteFooter />
 </template>

@@ -1,6 +1,6 @@
 <template>
   <div :class="clazz">
-    <iframe :src="embedURL" frameborder="0"
+    <iframe :src="embedURL" title="YouTube video" loading="lazy" style="border: 0"
       allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
       allowfullscreen></iframe>
   </div>

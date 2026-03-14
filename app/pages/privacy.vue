@@ -28,7 +28,7 @@ useServerSeoMeta({
       <div class="lg:w-2/3 p-4">
         <p class="text-base text-gray-800 text-left mb-4 font-normal">This Privacy Policy explains how This Is My
           Momoir ("we," "us," or "our") collects, uses, and discloses your
-          personal information when you visit or use our website, www.thisismymemoir.com (the "Website"). By using our
+          personal information when you visit or use our website, www.thisismymomoir.com (the "Website"). By using our
           Website, you agree to the collection and use of information in accordance with this Privacy Policy.</p>
         <h3 id="collect" class="text-3xl font-bold leading-tight text-gray-900 mb-2">Information We Collect</h3>
 
@@ -114,7 +114,7 @@ useServerSeoMeta({
         <h3 id="contact" class="text-3xl font-bold leading-tight text-gray-900">Contact Us</h3>
         <p class="text-base text-gray-800 text-left mb-4 font-normal">If you have any questions or concerns about
           this Privacy Policy, please contact us by email at
-          jen@thisismymemoir.com.</p>
+          jen@thisismymomoir.com.</p>
       </div>
       <div class="lg:w-1/3 bg-gray-100 p-4">
         <ol class="space-y-6 text-base">
