@@ -82,5 +82,5 @@ useServerSeoMeta({
       <ContentRenderer v-if="post" :value="post" />
     </section>
   </main>
-  <BlogSubscribeModal />
+  <BlogNewsletterSignup variant="modal" />
 </template>

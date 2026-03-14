@@ -1,6 +1,5 @@
 <script setup lang="ts">
-import FooterNewsletterSignup from './blog/FooterNewsletterSignup.vue';
-
+const { social } = useRuntimeConfig().public
 const currentYear = new Date().getFullYear();
 </script>
 
@@ -14,7 +13,7 @@ const currentYear = new Date().getFullYear();
               <h2 class="text-2xl font-bold tracking-tight text-slate-800 sm:text-3xl font-cormorant">Subscribe to my newsletter.</h2>
               <p class="mt-2 text-base leading-7 text-slate-700">Sign up for my monthly newsletter and stay up to date with
                 current blog posts.</p>
-              <FooterNewsletterSignup />
+              <BlogNewsletterSignup variant="footer" />
             </div>
             <div class="flex gap-8 sm:gap-12">
               <div class="flex items-start gap-3">
@@ -50,16 +49,16 @@ const currentYear = new Date().getFullYear();
         <NuxtLink to="/contact" class="transition-colors duration-200 hover:text-slate-900">Contact Me</NuxtLink>
       </nav>
       <div class="flex justify-center gap-5 mb-3">
-        <a href="https://pinterest.com/thisismymomoir" class="text-slate-600 transition-all duration-200 hover:text-slate-900 hover:scale-110">
+        <a :href="social.pinterest" class="text-slate-600 transition-all duration-200 hover:text-slate-900 hover:scale-110">
           <Icon name="simple-icons:pinterest" size="1.5rem" />
         </a>
-        <a href="https://www.facebook.com/thisismymomoir" class="text-slate-600 transition-all duration-200 hover:text-slate-900 hover:scale-110">
+        <a :href="social.facebook" class="text-slate-600 transition-all duration-200 hover:text-slate-900 hover:scale-110">
           <Icon name="simple-icons:facebook" size="1.5rem" />
         </a>
-        <a href="https://www.instagram.com/thisismymomoir" class="text-slate-600 transition-all duration-200 hover:text-slate-900 hover:scale-110">
+        <a :href="social.instagram" class="text-slate-600 transition-all duration-200 hover:text-slate-900 hover:scale-110">
           <Icon name="simple-icons:instagram" size="1.5rem" />
         </a>
-        <a href="https://x.com/thisismymomoir" class="text-slate-600 transition-all duration-200 hover:text-slate-900 hover:scale-110">
+        <a :href="social.twitter" class="text-slate-600 transition-all duration-200 hover:text-slate-900 hover:scale-110">
           <Icon name="simple-icons:x" size="1.5rem" />
         </a>
       </div>
