@@ -1,8 +1,3 @@
-const SITE_URL = 'https://www.thisismymomoir.com'
-const SITE_TITLE = 'This Is My Momoir'
-const SITE_DESCRIPTION =
-  'A memoir as a mom — sharing stories on #MomLife, Health & Wellness, Recipes, Celebrations, and Travel.'
-
 function escapeXml(str: string): string {
   return str
     .replace(/&/g, '&amp;')
@@ -13,6 +8,8 @@ function escapeXml(str: string): string {
 }
 
 export default defineEventHandler(async (event) => {
+  const { siteUrl, siteName, siteDescription } = useRuntimeConfig().public
+
   const posts = await queryCollection(event, 'blog')
     .where('category', '<>', '')
     .order('publishedOn', 'DESC')
@@ -20,9 +17,9 @@ export default defineEventHandler(async (event) => {
 
   const items = posts
     .map((post) => {
-      const link = `${SITE_URL}/blog/${post.slug}`
+      const link = `${siteUrl}/blog/${post.slug}`
       const pubDate = new Date(post.publishedOn as string).toUTCString()
-      const coverUrl = post.cover ? `${SITE_URL}${post.cover}` : ''
+      const coverUrl = post.cover ? `${siteUrl}${post.cover}` : ''
 
       return `    <item>
       <title>${escapeXml(post.title as string)}</title>
@@ -45,12 +42,12 @@ export default defineEventHandler(async (event) => {
   const feed = `<?xml version="1.0" encoding="UTF-8"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>${escapeXml(SITE_TITLE)}</title>
-    <link>${SITE_URL}</link>
-    <description>${escapeXml(SITE_DESCRIPTION)}</description>
+    <title>${escapeXml(siteName)}</title>
+    <link>${siteUrl}</link>
+    <description>${escapeXml(siteDescription)}</description>
     <language>en-us</language>
     <lastBuildDate>${new Date().toUTCString()}</lastBuildDate>
-    <atom:link href="${SITE_URL}/feed.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="${siteUrl}/feed.xml" rel="self" type="application/rss+xml" />
 ${items}
   </channel>
 </rss>`

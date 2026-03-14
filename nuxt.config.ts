@@ -1,4 +1,6 @@
 // https://nuxt.com/docs/api/configuration/nuxt-config
+const SITE_URL = 'https://www.thisismymomoir.com'
+
 export default defineNuxtConfig({
   future: {
     compatibilityVersion: 4
@@ -7,6 +9,20 @@ export default defineNuxtConfig({
   alias: {
     '@data': '../data',
   },
+  runtimeConfig: {
+    public: {
+      siteUrl: SITE_URL,
+      siteName: 'This Is My Momoir',
+      siteDescription: 'A memoir (in blog form) of everything I have learned on this beautiful, exhausting, magical journey known as motherhood.',
+      social: {
+        instagram: 'https://www.instagram.com/thisismymomoir',
+        facebook: 'https://www.facebook.com/thisismymomoir',
+        pinterest: 'https://pinterest.com/thisismymomoir',
+        twitter: 'https://x.com/thisismymomoir',
+      },
+    },
+  },
+  css: ['~/assets/css/convertkit-form.css'],
   modules: [
     '@nuxtjs/tailwindcss',
     '@nuxtjs/google-fonts',
@@ -44,7 +60,7 @@ export default defineNuxtConfig({
     }
   },
   sitemap: {
-    siteUrl: 'https://www.thisismymomoir.com'
+    siteUrl: SITE_URL
   },
   // production build issue: https://answers.netlify.com/t/javascript-heap-out-of-memory-when-trying-to-build-a-nuxt-app/93138/13
   postcss: {

@@ -8,6 +8,8 @@ const props = defineProps<{
   items: BreadcrumbItem[]
 }>()
 
+const { siteUrl } = useRuntimeConfig().public
+
 useHead({
   script: [
     {
@@ -19,7 +21,7 @@ useHead({
           '@type': 'ListItem',
           position: index + 1,
           name: item.label,
-          ...(item.to ? { item: `https://www.thisismymomoir.com${item.to}` } : {}),
+          ...(item.to ? { item: `${siteUrl}${item.to}` } : {}),
         })),
       }),
     },
